@@ -205,6 +205,7 @@ for (const watched of config.watch) {
         setup_command:   watched.setup_command    ?? '',
         test_command:    watched.test_command,
         package_manager: watched.package_manager  ?? 'npm',
+        node_version:    watched.node_version      ?? '20',
         yarn_version:    watched.yarn_version      ?? '1',
         timeout_minutes: watched.timeout_minutes   ?? 20,
         dep_repo:        depRepo,

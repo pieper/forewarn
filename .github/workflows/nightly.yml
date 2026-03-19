@@ -14,6 +14,8 @@ jobs:
   discover:
     name: Discover untested PRs
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     outputs:
       matrix:   ${{ steps.discover.outputs.matrix }}
       has_jobs: ${{ steps.discover.outputs.has_jobs }}
@@ -48,6 +50,8 @@ jobs:
     needs: discover
     if: needs.discover.outputs.has_jobs == 'true'
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     continue-on-error: true
     timeout-minutes: ${{ matrix.timeout_minutes }}
     strategy:
@@ -59,7 +63,7 @@ jobs:
     steps:
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: ${{ matrix.node_version }}
 
       # Enable corepack so yarn berry projects get the right yarn version
       # from their packageManager field in package.json
@@ -152,6 +156,7 @@ jobs:
       - name: Install dependencies
         working-directory: watched
         run: ${{ matrix.install_command }}
+        continue-on-error: true
         timeout-minutes: 10
 
       # Optional pre-test build step (e.g. OHIF needs yarn build:packages
@@ -160,6 +165,7 @@ jobs:
         if: matrix.setup_command != ''
         working-directory: watched
         run: ${{ matrix.setup_command }}
+        continue-on-error: true
         timeout-minutes: 15
 
       - name: Run tests
@@ -204,6 +210,8 @@ jobs:
     needs: [discover, test-pr]
     if: always()
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - uses: actions/checkout@v4
