@@ -1,18 +1,15 @@
-## Notice: this was AI generated based on detailed prompting, but may still be iffy.
-
-
 # Forewarn Dashboard
 
 > Continuously tests watched projects against open PRs in their dependency trees.
 > Any proposed upstream change that would break a watched project appears here before it lands.
 
-**Last updated:** Thu, 19 Mar 2026 20:27:11 GMT
+**Last updated:** Thu, 19 Mar 2026 20:48:48 GMT
 
 ## Summary
 
 | | All time | Last 7 days |
 |---|---|---|
-| PRs tested | 1 | 1 |
+| PRs tested | 2 | 2 |
 | ✅ Passing | 0 | 0 |
 | ❌ Failing | 0 | 0 |
 
