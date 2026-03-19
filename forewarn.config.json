@@ -3,7 +3,7 @@
     {
       "repo": "dcmjs-org/dcmjs",
       "package_manager": "npm",
-      "node_version": "20",
+      "node_version": "lts",
       "install_command": "npm install --legacy-peer-deps",
       "test_command": "npm test",
       "timeout_minutes": 15
@@ -12,7 +12,7 @@
       "repo": "cornerstonejs/cornerstone3D",
       "package_manager": "yarn",
       "yarn_version": "1",
-      "node_version": "20",
+      "node_version": "lts",
       "install_command": "yarn install",
       "test_command": "yarn test",
       "timeout_minutes": 25
@@ -21,7 +21,7 @@
       "repo": "OHIF/Viewers",
       "package_manager": "yarn",
       "yarn_version": "berry",
-      "node_version": "20",
+      "node_version": "lts",
       "install_command": "yarn install --no-immutable",
       "setup_command": "yarn build:packages",
       "test_command": "yarn test:unit",
@@ -30,7 +30,7 @@
     {
       "repo": "ImagingDataCommons/slim",
       "package_manager": "npm",
-      "node_version": "20",
+      "node_version": "lts",
       "install_command": "npm install --legacy-peer-deps",
       "test_command": "npm test -- --watchAll=false --passWithNoTests",
       "timeout_minutes": 15
