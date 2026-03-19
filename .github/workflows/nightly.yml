@@ -1,0 +1,241 @@
+name: Forewarn Nightly
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # 2 AM UTC nightly
+  workflow_dispatch:        # allow manual trigger
+
+permissions:
+  contents: write           # needed to commit state + README
+
+jobs:
+
+  # ── 1. Discover untested upstream PRs ─────────────────────────────────────
+  discover:
+    name: Discover untested PRs
+    runs-on: ubuntu-latest
+    outputs:
+      matrix:   ${{ steps.discover.outputs.matrix }}
+      has_jobs: ${{ steps.discover.outputs.has_jobs }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run discovery
+        id: discover
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          JOBS=$(node scripts/discover.mjs 2>/tmp/discover.log)
+          cat /tmp/discover.log
+          COUNT=$(echo "$JOBS" | node -e \
+            "const d=require('fs').readFileSync('/dev/stdin','utf8'); console.log(JSON.parse(d).length)")
+          echo "matrix=$JOBS" >> "$GITHUB_OUTPUT"
+          if [ "$COUNT" -gt 0 ]; then
+            echo "has_jobs=true"  >> "$GITHUB_OUTPUT"
+          else
+            echo "has_jobs=false" >> "$GITHUB_OUTPUT"
+          fi
+          echo "Found $COUNT untested PR commits"
+
+  # ── 2. Test each PR (matrix, parallel) ────────────────────────────────────
+  test-pr:
+    name: "${{ matrix.dep_repo }}#${{ matrix.pr_number }} → ${{ matrix.watched_repo }}"
+    needs: discover
+    if: needs.discover.outputs.has_jobs == 'true'
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    timeout-minutes: ${{ matrix.timeout_minutes }}
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        include: ${{ fromJson(needs.discover.outputs.matrix) }}
+
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Enable corepack so yarn berry projects get the right yarn version
+      # from their packageManager field in package.json
+      - name: Enable corepack
+        if: matrix.package_manager == 'yarn'
+        run: corepack enable
+
+      # Check out the watched project (not this forewarn repo)
+      - name: Checkout ${{ matrix.watched_repo }}
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ matrix.watched_repo }}
+          path: watched
+
+      # After corepack enable, activating the correct yarn version for
+      # berry projects requires a prepare step inside the checkout
+      - name: Activate yarn version
+        if: matrix.package_manager == 'yarn' && matrix.yarn_version == 'berry'
+        working-directory: watched
+        run: corepack prepare --activate
+
+      # Try pkg.pr.new first (clean built artifact); fall back to raw GitHub ref.
+      # pkg.pr.new requires the upstream repo to have set up the action, but
+      # produces a properly built package rather than raw source.
+      - name: Resolve PR artifact URL
+        id: artifact
+        run: |
+          PKG_PR_URL="https://pkg.pr.new/${{ matrix.dep_repo }}@${{ matrix.pr_sha }}"
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" "${PKG_PR_URL}/package.json" || echo "000")
+          if [ "$STATUS" = "200" ]; then
+            echo "url=$PKG_PR_URL" >> "$GITHUB_OUTPUT"
+            echo "source=pkg.pr.new" >> "$GITHUB_OUTPUT"
+            echo "Using pkg.pr.new: $PKG_PR_URL"
+          else
+            FALLBACK="github:${{ matrix.dep_repo }}#${{ matrix.pr_sha }}"
+            echo "url=$FALLBACK" >> "$GITHUB_OUTPUT"
+            echo "source=github-ref" >> "$GITHUB_OUTPUT"
+            echo "pkg.pr.new unavailable (HTTP $STATUS), falling back to: $FALLBACK"
+          fi
+
+      # Override injection differs by package manager:
+      #
+      #   npm         → "overrides" in package.json  (npm 8+)
+      #   yarn v1     → "resolutions" in package.json
+      #   yarn berry  → "resolutions" in package.json  (berry honours this too)
+      #                 plus if falling back to a raw git ref, switch nodeLinker
+      #                 to node-modules to avoid PnP incompatibilities
+      - name: Apply dependency override (npm)
+        if: matrix.package_manager == 'npm'
+        working-directory: watched
+        run: |
+          npm pkg set overrides["${{ matrix.dep_package }}"]="${{ steps.artifact.outputs.url }}"
+
+      - name: Apply dependency override (yarn v1)
+        if: matrix.package_manager == 'yarn' && matrix.yarn_version != 'berry'
+        working-directory: watched
+        run: |
+          node -e "
+            const fs  = require('fs');
+            const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+            pkg.resolutions = pkg.resolutions || {};
+            pkg.resolutions['${{ matrix.dep_package }}'] = '${{ steps.artifact.outputs.url }}';
+            fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2));
+          "
+
+      - name: Apply dependency override (yarn berry)
+        if: matrix.package_manager == 'yarn' && matrix.yarn_version == 'berry'
+        working-directory: watched
+        run: |
+          # 1. Inject resolution so berry overrides the dep everywhere in the tree
+          node -e "
+            const fs  = require('fs');
+            const pkg = JSON.parse(fs.readFileSync('package.json', 'utf8'));
+            pkg.resolutions = pkg.resolutions || {};
+            pkg.resolutions['${{ matrix.dep_package }}'] = '${{ steps.artifact.outputs.url }}';
+            fs.writeFileSync('package.json', JSON.stringify(pkg, null, 2));
+          "
+
+          # 2. If falling back to a raw git ref (not a built pkg.pr.new artifact),
+          #    switch to node-modules linker so Yarn doesn't try to PnP-link a
+          #    git clone that has no zip/PnP metadata
+          if [ "${{ steps.artifact.outputs.source }}" = "github-ref" ]; then
+            if [ -f ".yarnrc.yml" ]; then
+              grep -v '^nodeLinker:' .yarnrc.yml > .yarnrc.yml.tmp && mv .yarnrc.yml.tmp .yarnrc.yml
+            fi
+            echo "nodeLinker: node-modules" >> .yarnrc.yml
+            echo "Switched to nodeLinker: node-modules for raw git ref"
+          fi
+
+      - name: Install dependencies
+        working-directory: watched
+        run: ${{ matrix.install_command }}
+        timeout-minutes: 10
+
+      # Optional pre-test build step (e.g. OHIF needs yarn build:packages
+      # to compile internal workspace packages before tests can import them)
+      - name: Pre-test setup
+        if: matrix.setup_command != ''
+        working-directory: watched
+        run: ${{ matrix.setup_command }}
+        timeout-minutes: 15
+
+      - name: Run tests
+        id: run_tests
+        working-directory: watched
+        run: ${{ matrix.test_command }}
+        continue-on-error: true   # capture outcome without failing the job
+
+      # Persist result as an artifact for the finalize job to collect
+      - name: Save result
+        if: always()
+        run: |
+          mkdir -p results
+          node -e "
+            const fs = require('fs');
+            const result = {
+              state_key:    '${{ matrix.state_key }}',
+              watched_repo: '${{ matrix.watched_repo }}',
+              dep_repo:     '${{ matrix.dep_repo }}',
+              dep_package:  '${{ matrix.dep_package }}',
+              pr_number:    ${{ matrix.pr_number }},
+              pr_sha:       '${{ matrix.pr_sha }}',
+              pr_title:     \`${{ matrix.pr_title }}\`,
+              pr_url:       '${{ matrix.pr_url }}',
+              result:       '${{ steps.run_tests.outcome }}',
+              tested_at:    new Date().toISOString(),
+              run_url:      '${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}'
+            };
+            fs.writeFileSync('results/result.json', JSON.stringify(result, null, 2));
+          "
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: result-${{ strategy.job-index }}
+          path: results/result.json
+          if-no-files-found: warn
+
+  # ── 3. Merge results, update state, regenerate dashboard ──────────────────
+  finalize:
+    name: Update state and dashboard
+    needs: [discover, test-pr]
+    if: always()
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Pull latest commits
+        run: git pull --rebase
+
+      - uses: actions/download-artifact@v4
+        if: needs.discover.outputs.has_jobs == 'true'
+        with:
+          pattern: result-*
+          merge-multiple: true
+          path: new-results
+        continue-on-error: true
+
+      - name: Merge results into state
+        run: node scripts/merge-results.mjs
+
+      - name: Regenerate dashboard
+        run: node scripts/generate-dashboard.mjs
+
+      - name: Commit and push
+        run: |
+          git config user.name  'forewarn[bot]'
+          git config user.email 'forewarn[bot]@users.noreply.github.com'
+          git add forewarn-state.json README.md
+          git diff --staged --quiet && echo "Nothing to commit" && exit 0
+          git commit -m "forewarn: nightly update $(date -u +'%Y-%m-%d')"
+          git push

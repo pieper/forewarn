@@ -1,0 +1,36 @@
+{
+  "watch": [
+    {
+      "repo": "dcmjs-org/dcmjs",
+      "package_manager": "npm",
+      "install_command": "npm install --legacy-peer-deps",
+      "test_command": "npm test",
+      "timeout_minutes": 15
+    },
+    {
+      "repo": "cornerstonejs/cornerstone3D",
+      "package_manager": "yarn",
+      "yarn_version": "berry",
+      "install_command": "yarn install --no-immutable",
+      "test_command": "yarn test",
+      "timeout_minutes": 25
+    },
+    {
+      "repo": "OHIF/Viewers",
+      "package_manager": "yarn",
+      "yarn_version": "berry",
+      "install_command": "yarn install --no-immutable",
+      "setup_command": "yarn build:packages",
+      "test_command": "yarn test:unit",
+      "timeout_minutes": 30
+    },
+    {
+      "repo": "ImagingDataCommons/slim",
+      "package_manager": "npm",
+      "install_command": "npm install --legacy-peer-deps",
+      "test_command": "npm test -- --watchAll=false --passWithNoTests",
+      "timeout_minutes": 15
+    }
+  ],
+  "max_jobs_per_run": 40
+}
