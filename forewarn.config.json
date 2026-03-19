@@ -10,8 +10,8 @@
     {
       "repo": "cornerstonejs/cornerstone3D",
       "package_manager": "yarn",
-      "yarn_version": "berry",
-      "install_command": "yarn install --no-immutable",
+      "yarn_version": "1",
+      "install_command": "yarn install",
       "test_command": "yarn test",
       "timeout_minutes": 25
     },
