@@ -3,23 +3,45 @@
 > Continuously tests watched projects against open PRs in their dependency trees.
 > Any proposed upstream change that would break a watched project appears here before it lands.
 
-**Last updated:** _(not yet run)_
+**Last updated:** Thu, 19 Mar 2026 20:27:11 GMT
+
+## Summary
+
+| | All time | Last 7 days |
+|---|---|---|
+| PRs tested | 1 | 1 |
+| ✅ Passing | 0 | 0 |
+| ❌ Failing | 0 | 0 |
+
+> ✅ All tested upstream PRs are currently passing.
+
+---
 
 ## Watched Projects
 
-- [dcmjs-org/dcmjs](https://github.com/dcmjs-org/dcmjs)
-- [cornerstonejs/cornerstone3D](https://github.com/cornerstonejs/cornerstone3D)
-- [OHIF/Viewers](https://github.com/OHIF/Viewers)
-- [ImagingDataCommons/slim](https://github.com/ImagingDataCommons/slim)
+### [dcmjs-org/dcmjs](https://github.com/dcmjs-org/dcmjs)
 
-This dashboard will populate automatically after the first nightly run.
 
-## Setup
+---
 
-1. Fork or clone this repo into your GitHub org
-2. The workflow runs on a schedule — no secrets needed beyond the default `GITHUB_TOKEN`
-3. Adjust `forewarn.config.json` to change watched repos, test commands, or job limits
-4. Trigger a first run manually via **Actions → Forewarn Nightly → Run workflow**
+### cornerstonejs/cornerstone3D
+
+_No upstream PRs tested yet._
+
+---
+
+### OHIF/Viewers
+
+_No upstream PRs tested yet._
+
+---
+
+### ImagingDataCommons/slim
+
+_No upstream PRs tested yet._
+
+
+---
 
 ## About
 

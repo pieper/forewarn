@@ -1,1 +1,14 @@
-{}
+{
+  "dcmjs-org/dcmjs|babel/babel|17879|c6a8929f20dc509866b3685607b55bda04aff372": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17879,
+    "pr_sha": "c6a8929f20dc509866b3685607b55bda04aff372",
+    "pr_title": "fix(parser): correctly disambiguate typescript arrow return type in t…",
+    "pr_url": "https://github.com/babel/babel/pull/17879",
+    "result": "skipped",
+    "tested_at": "2026-03-19T20:26:09.471Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23315355333"
+  }
+}
