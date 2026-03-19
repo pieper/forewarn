@@ -3,23 +3,29 @@
 > Continuously tests watched projects against open PRs in their dependency trees.
 > Any proposed upstream change that would break a watched project appears here before it lands.
 
-**Last updated:** Thu, 19 Mar 2026 20:48:48 GMT
+**Last updated:** Thu, 19 Mar 2026 21:05:37 GMT
 
 ## Summary
 
 | | All time | Last 7 days |
 |---|---|---|
-| PRs tested | 2 | 2 |
+| PRs tested | 3 | 3 |
 | ✅ Passing | 0 | 0 |
-| ❌ Failing | 0 | 0 |
+| ❌ Failing | 1 | 1 |
 
-> ✅ All tested upstream PRs are currently passing.
+> ⚠️ **1 upstream PR currently break one or more watched projects.** See details below.
 
 ---
 
 ## Watched Projects
 
 ### [dcmjs-org/dcmjs](https://github.com/dcmjs-org/dcmjs)
+
+#### ❌ Failing PRs (1)
+
+| Upstream PR | Package | Title | Tested | |
+|---|---|---|---|---|
+| [babel/babel#17865](https://github.com/babel/babel/pull/17865) | `@babel/runtime-corejs3` | Fix(parser): flow parser small fixes | 1m ago | [log](https://github.com/pieper/forewarn/actions/runs/23316848529) |
 
 
 ---

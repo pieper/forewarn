@@ -22,5 +22,17 @@
     "result": "skipped",
     "tested_at": "2026-03-19T20:48:06.579Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/23316196247"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17865|6a869b9b0eb0bdda3ce3941feae8d03f93d9d50e": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17865,
+    "pr_sha": "6a869b9b0eb0bdda3ce3941feae8d03f93d9d50e",
+    "pr_title": "Fix(parser): flow parser small fixes",
+    "pr_url": "https://github.com/babel/babel/pull/17865",
+    "result": "failure",
+    "tested_at": "2026-03-19T21:04:30.083Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23316848529"
   }
 }
