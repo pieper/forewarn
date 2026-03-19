@@ -1,3 +1,6 @@
+## Notice: this was AI generated based on detailed prompting, but may still be iffy.
+
+
 # Forewarn Dashboard
 
 > Continuously tests watched projects against open PRs in their dependency trees.
