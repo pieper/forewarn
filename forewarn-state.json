@@ -34,5 +34,17 @@
     "result": "failure",
     "tested_at": "2026-03-19T21:04:30.083Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/23316848529"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17886|744f239fba939ee369712aa8cf004340d4facca3": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17886,
+    "pr_sha": "744f239fba939ee369712aa8cf004340d4facca3",
+    "pr_title": "Clean up the logic of some helper packages",
+    "pr_url": "https://github.com/babel/babel/pull/17886",
+    "result": "skipped",
+    "tested_at": "2026-03-19T21:28:06.955Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23317755868"
   }
 }
