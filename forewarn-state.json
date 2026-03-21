@@ -58,5 +58,17 @@
     "result": "skipped",
     "tested_at": "2026-03-20T02:59:19.227Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/23327162498"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17848|90a11e892ee1ff5294615dc6732730544fdc18c0": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17848,
+    "pr_sha": "90a11e892ee1ff5294615dc6732730544fdc18c0",
+    "pr_title": "Optimize combined object rest and spread operations (Issue #3840)",
+    "pr_url": "https://github.com/babel/babel/pull/17848",
+    "result": "skipped",
+    "tested_at": "2026-03-21T02:54:48.600Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23370509775"
   }
 }
