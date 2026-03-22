@@ -70,5 +70,17 @@
     "result": "skipped",
     "tested_at": "2026-03-21T02:54:48.600Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/23370509775"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17785|b6e68fa892abbfa526baec3e578f0383cdc753dd": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17785,
+    "pr_sha": "b6e68fa892abbfa526baec3e578f0383cdc753dd",
+    "pr_title": "Parse partial-application  version",
+    "pr_url": "https://github.com/babel/babel/pull/17785",
+    "result": "skipped",
+    "tested_at": "2026-03-22T03:03:59.617Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23394442024"
   }
 }
