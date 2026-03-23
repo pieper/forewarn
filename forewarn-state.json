@@ -82,5 +82,17 @@
     "result": "skipped",
     "tested_at": "2026-03-22T03:03:59.617Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/23394442024"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17864|d282a8f4e07ad762c57348b0006ec80ea761cd4e": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17864,
+    "pr_sha": "d282a8f4e07ad762c57348b0006ec80ea761cd4e",
+    "pr_title": "fix: preserve TDZ for const/let ForDeclaration in for-await-of transform",
+    "pr_url": "https://github.com/babel/babel/pull/17864",
+    "result": "skipped",
+    "tested_at": "2026-03-23T03:04:15.971Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23419612444"
   }
 }
