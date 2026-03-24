@@ -94,5 +94,17 @@
     "result": "skipped",
     "tested_at": "2026-03-23T03:04:15.971Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/23419612444"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17817|d52021eead6ad78f7d896bf94013ff746fa50879": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17817,
+    "pr_sha": "d52021eead6ad78f7d896bf94013ff746fa50879",
+    "pr_title": "Import bytes proposal",
+    "pr_url": "https://github.com/babel/babel/pull/17817",
+    "result": "skipped",
+    "tested_at": "2026-03-24T03:00:44.505Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23470982163"
   }
 }
