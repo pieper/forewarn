@@ -106,5 +106,17 @@
     "result": "skipped",
     "tested_at": "2026-03-24T03:00:44.505Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/23470982163"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17878|fa796831861231d8496eb44dd85362d2b6f04cae": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17878,
+    "pr_sha": "fa796831861231d8496eb44dd85362d2b6f04cae",
+    "pr_title": "fix(cli): pass ignore option to chokidar watcher to prevent watching ignored files",
+    "pr_url": "https://github.com/babel/babel/pull/17878",
+    "result": "skipped",
+    "tested_at": "2026-03-25T03:02:55.232Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23522843529"
   }
 }
