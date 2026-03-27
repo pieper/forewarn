@@ -130,5 +130,17 @@
     "result": "skipped",
     "tested_at": "2026-03-26T03:04:27.850Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/23575413479"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17486|c30233c09a3dca0b5d63a3d63bf604db44e75f25": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17486,
+    "pr_sha": "c30233c09a3dca0b5d63a3d63bf604db44e75f25",
+    "pr_title": "Allow running tests in child processes",
+    "pr_url": "https://github.com/babel/babel/pull/17486",
+    "result": "skipped",
+    "tested_at": "2026-03-27T03:05:19.327Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23629135542"
   }
 }

@@ -3,15 +3,15 @@
 > Continuously tests watched projects against open PRs in their dependency trees.
 > Any proposed upstream change that would break a watched project appears here before it lands.
 
-**Last updated:** Thu, 26 Mar 2026 03:05:10 GMT
+**Last updated:** Fri, 27 Mar 2026 03:05:44 GMT
 
 ## Summary
 
 | | All time | Last 7 days |
 |---|---|---|
-| PRs tested | 11 | 11 |
+| PRs tested | 12 | 7 |
 | ✅ Passing | 0 | 0 |
-| ❌ Failing | 1 | 1 |
+| ❌ Failing | 1 | 0 |
 
 > ⚠️ **1 upstream PR currently break one or more watched projects.** See details below.
 
@@ -25,7 +25,7 @@
 
 | Upstream PR | Package | Title | Tested | |
 |---|---|---|---|---|
-| [babel/babel#17865](https://github.com/babel/babel/pull/17865) | `@babel/runtime-corejs3` | Fix(parser): flow parser small fixes | 6d ago | [log](https://github.com/pieper/forewarn/actions/runs/23316848529) |
+| [babel/babel#17865](https://github.com/babel/babel/pull/17865) | `@babel/runtime-corejs3` | Fix(parser): flow parser small fixes | 7d ago | [log](https://github.com/pieper/forewarn/actions/runs/23316848529) |
 
 
 ---
