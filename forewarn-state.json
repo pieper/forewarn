@@ -142,5 +142,17 @@
     "result": "skipped",
     "tested_at": "2026-03-27T03:05:19.327Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/23629135542"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17575|4ba6eb2e6bb44df735f7d42b3286d943fc972317": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17575,
+    "pr_sha": "4ba6eb2e6bb44df735f7d42b3286d943fc972317",
+    "pr_title": "WIP: Try better TS tests for parser",
+    "pr_url": "https://github.com/babel/babel/pull/17575",
+    "result": "skipped",
+    "tested_at": "2026-03-28T03:02:09.094Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23676032482"
   }
 }
