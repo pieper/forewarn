@@ -154,5 +154,17 @@
     "result": "skipped",
     "tested_at": "2026-03-28T03:02:09.094Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/23676032482"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17898|ba5b1e63c61bf7672cdbda49430136db122c98f1": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17898,
+    "pr_sha": "ba5b1e63c61bf7672cdbda49430136db122c98f1",
+    "pr_title": "Report unused eslint directives",
+    "pr_url": "https://github.com/babel/babel/pull/17898",
+    "result": "skipped",
+    "tested_at": "2026-03-29T03:04:40.752Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23700089845"
   }
 }
