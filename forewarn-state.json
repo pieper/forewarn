@@ -166,5 +166,17 @@
     "result": "skipped",
     "tested_at": "2026-03-29T03:04:40.752Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/23700089845"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17849|4b94a8dff12c91d23fc4d02237c23e01f6bfdd39": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17849,
+    "pr_sha": "4b94a8dff12c91d23fc4d02237c23e01f6bfdd39",
+    "pr_title": "fix(code-frame): use 0-based columns to match Babel AST locations (#1…",
+    "pr_url": "https://github.com/babel/babel/pull/17849",
+    "result": "skipped",
+    "tested_at": "2026-03-30T03:05:13.138Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23726112244"
   }
 }
