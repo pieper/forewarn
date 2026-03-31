@@ -178,5 +178,17 @@
     "result": "skipped",
     "tested_at": "2026-03-30T03:05:13.138Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/23726112244"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17857|6dccbc8e3a5debfb9c1b31c76538a0f8f603f1c9": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17857,
+    "pr_sha": "6dccbc8e3a5debfb9c1b31c76538a0f8f603f1c9",
+    "pr_title": "Support  syntax for Flow type parameter bounds",
+    "pr_url": "https://github.com/babel/babel/pull/17857",
+    "result": "skipped",
+    "tested_at": "2026-03-31T03:05:01.644Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23778451293"
   }
 }
