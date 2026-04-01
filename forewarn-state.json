@@ -190,5 +190,17 @@
     "result": "skipped",
     "tested_at": "2026-03-31T03:05:01.644Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/23778451293"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17740|fab4e920d869f8f8ca6452d99c527463d7fbfbac": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17740,
+    "pr_sha": "fab4e920d869f8f8ca6452d99c527463d7fbfbac",
+    "pr_title": "chore: Add rebase tools",
+    "pr_url": "https://github.com/babel/babel/pull/17740",
+    "result": "skipped",
+    "tested_at": "2026-04-01T03:04:54.123Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/23829901809"
   }
 }
