@@ -274,5 +274,17 @@
     "result": "skipped",
     "tested_at": "2026-04-07T03:04:30.813Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/24062207630"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17902|eaf95cdba0db6fd6fdee9c96f99a0b9f417b9144": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17902,
+    "pr_sha": "eaf95cdba0db6fd6fdee9c96f99a0b9f417b9144",
+    "pr_title": "polish(parser): improve ImportExpression error recovery",
+    "pr_url": "https://github.com/babel/babel/pull/17902",
+    "result": "skipped",
+    "tested_at": "2026-04-08T03:04:37.559Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/24115419402"
   }
 }
