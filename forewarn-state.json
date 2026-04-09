@@ -286,5 +286,17 @@
     "result": "skipped",
     "tested_at": "2026-04-08T03:04:37.559Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/24115419402"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17904|24106bb5f8e3a0423b4d306caff343f0149dc302": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17904,
+    "pr_sha": "24106bb5f8e3a0423b4d306caff343f0149dc302",
+    "pr_title": "test(parser): use allowlist.md for better DX",
+    "pr_url": "https://github.com/babel/babel/pull/17904",
+    "result": "skipped",
+    "tested_at": "2026-04-09T03:04:13.092Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/24170138402"
   }
 }
