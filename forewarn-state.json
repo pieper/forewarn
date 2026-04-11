@@ -310,5 +310,17 @@
     "result": "skipped",
     "tested_at": "2026-04-10T03:05:44.703Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/24224224491"
+  },
+  "dcmjs-org/dcmjs|babel/babel|16873|cb18528682a518407c668f4b1128a42e5f6e72c6": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 16873,
+    "pr_sha": "cb18528682a518407c668f4b1128a42e5f6e72c6",
+    "pr_title": "chore: Improve benchmarks",
+    "pr_url": "https://github.com/babel/babel/pull/16873",
+    "result": "skipped",
+    "tested_at": "2026-04-11T03:03:55.897Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/24273196536"
   }
 }
