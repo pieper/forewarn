@@ -322,5 +322,17 @@
     "result": "skipped",
     "tested_at": "2026-04-11T03:03:55.897Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/24273196536"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17899|289a88fb6d802dde495447870c5823efba69d308": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17899,
+    "pr_sha": "289a88fb6d802dde495447870c5823efba69d308",
+    "pr_title": "fix: Improve type reasoning for visitors containing ",
+    "pr_url": "https://github.com/babel/babel/pull/17899",
+    "result": "skipped",
+    "tested_at": "2026-04-12T03:05:07.564Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/24297376239"
   }
 }
