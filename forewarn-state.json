@@ -346,5 +346,17 @@
     "result": "skipped",
     "tested_at": "2026-04-13T03:06:16.810Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/24323733881"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17931|7677b5b5e7fb23c348000031d11ceccb732e8a91": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17931,
+    "pr_sha": "7677b5b5e7fb23c348000031d11ceccb732e8a91",
+    "pr_title": "fix(decorators): replace super within all removed static elements",
+    "pr_url": "https://github.com/babel/babel/pull/17931",
+    "result": "skipped",
+    "tested_at": "2026-04-14T03:05:11.836Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/24378756506"
   }
 }
