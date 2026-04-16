@@ -370,5 +370,17 @@
     "result": "skipped",
     "tested_at": "2026-04-15T03:05:21.002Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/24434243096"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17798|f0181ce9b94c550653e5246f7bf457ff1ca88018": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17798,
+    "pr_sha": "f0181ce9b94c550653e5246f7bf457ff1ca88018",
+    "pr_title": "Preserve HTML entity-encoded whitespace in JSX text trimming",
+    "pr_url": "https://github.com/babel/babel/pull/17798",
+    "result": "skipped",
+    "tested_at": "2026-04-16T03:05:31.674Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/24489778618"
   }
 }
