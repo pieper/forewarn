@@ -406,5 +406,17 @@
     "result": "skipped",
     "tested_at": "2026-04-18T03:04:28.348Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/24595487853"
+  },
+  "dcmjs-org/dcmjs|babel/babel|16728|9dccab970c9414ac954535bc23bf6d2041f27108": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 16728,
+    "pr_sha": "9dccab970c9414ac954535bc23bf6d2041f27108",
+    "pr_title": "feat: Rename multiple names at once",
+    "pr_url": "https://github.com/babel/babel/pull/16728",
+    "result": "skipped",
+    "tested_at": "2026-04-19T03:05:38.819Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/24619643910"
   }
 }
