@@ -454,5 +454,17 @@
     "result": "skipped",
     "tested_at": "2026-04-23T03:05:19.429Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/24814441388"
+  },
+  "dcmjs-org/dcmjs|babel/babel|16207|b46a42f203a0c8d2ae24940820c8e0f68c237227": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 16207,
+    "pr_sha": "b46a42f203a0c8d2ae24940820c8e0f68c237227",
+    "pr_title": "[babel 8] Require throw expression to be wrapped in parentheses",
+    "pr_url": "https://github.com/babel/babel/pull/16207",
+    "result": "skipped",
+    "tested_at": "2026-04-24T03:06:10.560Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/24870071723"
   }
 }
