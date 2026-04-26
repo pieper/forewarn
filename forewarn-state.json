@@ -478,5 +478,17 @@
     "result": "skipped",
     "tested_at": "2026-04-25T03:04:27.365Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/24921076452"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17833|31037248face29a7599f5572c5d653002605987a": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17833,
+    "pr_sha": "31037248face29a7599f5572c5d653002605987a",
+    "pr_title": "Remove ",
+    "pr_url": "https://github.com/babel/babel/pull/17833",
+    "result": "skipped",
+    "tested_at": "2026-04-26T03:05:46.414Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/24946891021"
   }
 }
