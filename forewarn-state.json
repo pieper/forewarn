@@ -490,5 +490,17 @@
     "result": "skipped",
     "tested_at": "2026-04-26T03:05:46.414Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/24946891021"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17492|cc27790dbaaf188ff4be6f6aa4810aeddeaef580": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17492,
+    "pr_sha": "cc27790dbaaf188ff4be6f6aa4810aeddeaef580",
+    "pr_title": "Enable ",
+    "pr_url": "https://github.com/babel/babel/pull/17492",
+    "result": "skipped",
+    "tested_at": "2026-04-27T03:06:40.538Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/24974590276"
   }
 }
