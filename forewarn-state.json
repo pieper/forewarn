@@ -514,5 +514,17 @@
     "result": "skipped",
     "tested_at": "2026-04-28T03:07:12.458Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/25031665072"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17877|97ab479bd0d731a488f3f3be4cc180073d963b1e": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17877,
+    "pr_sha": "97ab479bd0d731a488f3f3be4cc180073d963b1e",
+    "pr_title": "fix(regenerator): handle destructuring hoist crash in async (#17517)",
+    "pr_url": "https://github.com/babel/babel/pull/17877",
+    "result": "skipped",
+    "tested_at": "2026-04-29T03:06:17.806Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/25088860796"
   }
 }
