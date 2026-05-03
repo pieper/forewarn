@@ -550,5 +550,17 @@
     "result": "skipped",
     "tested_at": "2026-05-02T03:05:57.767Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/25242246476"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17572|7414d5db8655c474a97e3420f3a1e64190d003c0": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17572,
+    "pr_sha": "7414d5db8655c474a97e3420f3a1e64190d003c0",
+    "pr_title": "fix: arrow/async in conditional expressions for TS",
+    "pr_url": "https://github.com/babel/babel/pull/17572",
+    "result": "skipped",
+    "tested_at": "2026-05-03T03:06:47.794Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/25268395415"
   }
 }
