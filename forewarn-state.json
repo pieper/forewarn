@@ -562,5 +562,17 @@
     "result": "skipped",
     "tested_at": "2026-05-03T03:06:47.794Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/25268395415"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17350|1ca934714a19e3cc8707414b15bc539dd6c468fa": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17350,
+    "pr_sha": "1ca934714a19e3cc8707414b15bc539dd6c468fa",
+    "pr_title": "Initialize the  property at ",
+    "pr_url": "https://github.com/babel/babel/pull/17350",
+    "result": "skipped",
+    "tested_at": "2026-05-04T03:07:48.479Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/25299021723"
   }
 }
