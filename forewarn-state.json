@@ -574,5 +574,17 @@
     "result": "skipped",
     "tested_at": "2026-05-04T03:07:48.479Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/25299021723"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17971|e0d38f1273bf2e7bd761c425205fbec2eed98383": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17971,
+    "pr_sha": "e0d38f1273bf2e7bd761c425205fbec2eed98383",
+    "pr_title": "chore: add custom no-extraneous-dependencies rule",
+    "pr_url": "https://github.com/babel/babel/pull/17971",
+    "result": "skipped",
+    "tested_at": "2026-05-05T03:05:54.489Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/25355627734"
   }
 }
