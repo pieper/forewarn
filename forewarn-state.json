@@ -586,5 +586,17 @@
     "result": "skipped",
     "tested_at": "2026-05-05T03:05:54.489Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/25355627734"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17624|fb63472c350a948bd2a082ca712af8af6153e971": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17624,
+    "pr_sha": "fb63472c350a948bd2a082ca712af8af6153e971",
+    "pr_title": "Add parse support for the 'structs' proposal (only non-shared)",
+    "pr_url": "https://github.com/babel/babel/pull/17624",
+    "result": "skipped",
+    "tested_at": "2026-05-06T03:06:49.418Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/25414263065"
   }
 }
