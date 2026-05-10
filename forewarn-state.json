@@ -634,5 +634,17 @@
     "result": "skipped",
     "tested_at": "2026-05-09T03:06:28.186Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/25589975080"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17957|d887f6a6bfe9cb84e63df44da80d67058926464d": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17957,
+    "pr_sha": "d887f6a6bfe9cb84e63df44da80d67058926464d",
+    "pr_title": "Add testing for plugin options",
+    "pr_url": "https://github.com/babel/babel/pull/17957",
+    "result": "skipped",
+    "tested_at": "2026-05-10T03:06:39.501Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/25618332773"
   }
 }
