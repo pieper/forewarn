@@ -646,5 +646,17 @@
     "result": "skipped",
     "tested_at": "2026-05-10T03:06:39.501Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/25618332773"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17411|09666f970107efb6f2514719852ec9a1c6a9c7b1": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17411,
+    "pr_sha": "09666f970107efb6f2514719852ec9a1c6a9c7b1",
+    "pr_title": "Try typescript-go",
+    "pr_url": "https://github.com/babel/babel/pull/17411",
+    "result": "skipped",
+    "tested_at": "2026-05-11T03:08:29.971Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/25648188462"
   }
 }
