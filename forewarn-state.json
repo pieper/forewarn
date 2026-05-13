@@ -670,5 +670,17 @@
     "result": "skipped",
     "tested_at": "2026-05-12T03:07:11.890Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/25710821660"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17970|917c3856c8ed926dc90e3c94a7493d1457348548": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17970,
+    "pr_sha": "917c3856c8ed926dc90e3c94a7493d1457348548",
+    "pr_title": "Always use native Node.js TS support for config files",
+    "pr_url": "https://github.com/babel/babel/pull/17970",
+    "result": "skipped",
+    "tested_at": "2026-05-13T03:07:34.054Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/25775781295"
   }
 }
