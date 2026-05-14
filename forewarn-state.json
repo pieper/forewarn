@@ -682,5 +682,17 @@
     "result": "skipped",
     "tested_at": "2026-05-13T03:07:34.054Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/25775781295"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17991|860fda4df05188770a28c55f12cb233c2307450b": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17991,
+    "pr_sha": "860fda4df05188770a28c55f12cb233c2307450b",
+    "pr_title": "test: reset node environments after ts-node test",
+    "pr_url": "https://github.com/babel/babel/pull/17991",
+    "result": "skipped",
+    "tested_at": "2026-05-14T03:06:55.963Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/25839256828"
   }
 }
