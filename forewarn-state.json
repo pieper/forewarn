@@ -694,5 +694,17 @@
     "result": "skipped",
     "tested_at": "2026-05-14T03:06:55.963Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/25839256828"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17332|f66f9cd98691095e9149d57dfacee241fcd0c6fa": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17332,
+    "pr_sha": "f66f9cd98691095e9149d57dfacee241fcd0c6fa",
+    "pr_title": "Try converting classes to functions for  ",
+    "pr_url": "https://github.com/babel/babel/pull/17332",
+    "result": "skipped",
+    "tested_at": "2026-05-15T03:07:49.204Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/25898006711"
   }
 }
