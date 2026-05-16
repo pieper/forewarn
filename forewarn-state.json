@@ -706,5 +706,17 @@
     "result": "skipped",
     "tested_at": "2026-05-15T03:07:49.204Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/25898006711"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17122|9dd82fd1f5c6b601d3566d57f090e56a225913e9": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17122,
+    "pr_sha": "9dd82fd1f5c6b601d3566d57f090e56a225913e9",
+    "pr_title": "feat: Support transforming  for amd",
+    "pr_url": "https://github.com/babel/babel/pull/17122",
+    "result": "skipped",
+    "tested_at": "2026-05-16T03:06:10.768Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/25951174243"
   }
 }
