@@ -742,5 +742,17 @@
     "result": "skipped",
     "tested_at": "2026-05-18T03:08:41.588Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/26011367539"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18005|c046ecc24c90a8003d681bd986471af5491cc3b0": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18005,
+    "pr_sha": "c046ecc24c90a8003d681bd986471af5491cc3b0",
+    "pr_title": "Do not emit source map names for identical names",
+    "pr_url": "https://github.com/babel/babel/pull/18005",
+    "result": "skipped",
+    "tested_at": "2026-05-19T03:07:55.278Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/26073722091"
   }
 }
