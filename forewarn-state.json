@@ -754,5 +754,17 @@
     "result": "skipped",
     "tested_at": "2026-05-19T03:07:55.278Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/26073722091"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18001|3cfabaaa9450e335a03328a8939873e014fcf701": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18001,
+    "pr_sha": "3cfabaaa9450e335a03328a8939873e014fcf701",
+    "pr_title": "[7.x packport]Improve input source map handling",
+    "pr_url": "https://github.com/babel/babel/pull/18001",
+    "result": "skipped",
+    "tested_at": "2026-05-20T03:07:35.930Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/26138764416"
   }
 }
