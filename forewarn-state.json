@@ -802,5 +802,17 @@
     "result": "skipped",
     "tested_at": "2026-05-23T03:06:29.566Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/26321828412"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17457|691d94d69bc20c19531c67e485aaa951f9011328": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17457,
+    "pr_sha": "691d94d69bc20c19531c67e485aaa951f9011328",
+    "pr_title": "Allows for more convenient debugging helpers",
+    "pr_url": "https://github.com/babel/babel/pull/17457",
+    "result": "skipped",
+    "tested_at": "2026-05-24T03:08:02.551Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/26350410918"
   }
 }
