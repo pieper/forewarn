@@ -814,5 +814,17 @@
     "result": "skipped",
     "tested_at": "2026-05-24T03:08:02.551Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/26350410918"
+  },
+  "dcmjs-org/dcmjs|babel/babel|16839|3926434863da1e3cc49797ebe468a11c3441768f": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 16839,
+    "pr_sha": "3926434863da1e3cc49797ebe468a11c3441768f",
+    "pr_title": "Make the async iterator prototype third in the prototype chain of async generators",
+    "pr_url": "https://github.com/babel/babel/pull/16839",
+    "result": "skipped",
+    "tested_at": "2026-05-25T03:09:24.878Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/26381105768"
   }
 }
