@@ -826,5 +826,17 @@
     "result": "skipped",
     "tested_at": "2026-05-25T03:09:24.878Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/26381105768"
+  },
+  "dcmjs-org/dcmjs|babel/babel|16786|a453e60882ff89ca502eb030474321723185609d": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 16786,
+    "pr_sha": "a453e60882ff89ca502eb030474321723185609d",
+    "pr_title": "Fix import relative path",
+    "pr_url": "https://github.com/babel/babel/pull/16786",
+    "result": "skipped",
+    "tested_at": "2026-05-26T03:07:57.938Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/26429935414"
   }
 }
