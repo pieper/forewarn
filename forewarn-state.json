@@ -838,5 +838,17 @@
     "result": "skipped",
     "tested_at": "2026-05-26T03:07:57.938Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/26429935414"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18018|57aea21276b6abb5ce0be3a659001dbd17244a8b": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18018,
+    "pr_sha": "57aea21276b6abb5ce0be3a659001dbd17244a8b",
+    "pr_title": "ci: enforce yarn integrity",
+    "pr_url": "https://github.com/babel/babel/pull/18018",
+    "result": "skipped",
+    "tested_at": "2026-05-27T03:08:51.756Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/26488335061"
   }
 }
