@@ -850,5 +850,17 @@
     "result": "skipped",
     "tested_at": "2026-05-27T03:08:51.756Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/26488335061"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17023|7bb221bc6999f3583890bdd3f1f028169d778ed8": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17023,
+    "pr_sha": "7bb221bc6999f3583890bdd3f1f028169d778ed8",
+    "pr_title": "Improve rest spread output",
+    "pr_url": "https://github.com/babel/babel/pull/17023",
+    "result": "skipped",
+    "tested_at": "2026-05-28T03:09:36.572Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/26552218779"
   }
 }
