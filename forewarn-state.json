@@ -862,5 +862,17 @@
     "result": "skipped",
     "tested_at": "2026-05-28T03:09:36.572Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/26552218779"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18007|13b732722e191f1322055c019151e0660cf07566": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18007,
+    "pr_sha": "13b732722e191f1322055c019151e0660cf07566",
+    "pr_title": "Test register-hooks usage in Pirates",
+    "pr_url": "https://github.com/babel/babel/pull/18007",
+    "result": "skipped",
+    "tested_at": "2026-05-29T03:08:18.304Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/26615541725"
   }
 }
