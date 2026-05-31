@@ -886,5 +886,17 @@
     "result": "skipped",
     "tested_at": "2026-05-30T03:06:57.742Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/26672796874"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18031|4b4577bc5180b5d8c1f8215df2f2cbe9e48f7f3a": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18031,
+    "pr_sha": "4b4577bc5180b5d8c1f8215df2f2cbe9e48f7f3a",
+    "pr_title": "fix: advance source line for escaped U+2028/U+2029 line continuations in strings",
+    "pr_url": "https://github.com/babel/babel/pull/18031",
+    "result": "skipped",
+    "tested_at": "2026-05-31T03:08:50.355Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/26701792255"
   }
 }
