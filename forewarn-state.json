@@ -898,5 +898,17 @@
     "result": "skipped",
     "tested_at": "2026-05-31T03:08:50.355Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/26701792255"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18015|06796c2143f30981304e21fdce0182ce127cd0ea": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18015,
+    "pr_sha": "06796c2143f30981304e21fdce0182ce127cd0ea",
+    "pr_title": "Test Node.js 26 on CI",
+    "pr_url": "https://github.com/babel/babel/pull/18015",
+    "result": "skipped",
+    "tested_at": "2026-06-01T03:09:56.998Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/26733047186"
   }
 }
