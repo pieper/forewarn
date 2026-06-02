@@ -910,5 +910,17 @@
     "result": "skipped",
     "tested_at": "2026-06-01T03:09:56.998Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/26733047186"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18021|52e6af121964e38c3041581c06ac8d125db6d1f8": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18021,
+    "pr_sha": "52e6af121964e38c3041581c06ac8d125db6d1f8",
+    "pr_title": "Migrate regenerator tests",
+    "pr_url": "https://github.com/babel/babel/pull/18021",
+    "result": "skipped",
+    "tested_at": "2026-06-02T03:10:14.116Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/26795908873"
   }
 }
