@@ -922,5 +922,17 @@
     "result": "skipped",
     "tested_at": "2026-06-02T03:10:14.116Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/26795908873"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18003|5ac7d21b8e9328e88b1e7ef01d99f9f377ff7879": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18003,
+    "pr_sha": "5ac7d21b8e9328e88b1e7ef01d99f9f377ff7879",
+    "pr_title": "fix(babel-traverse): deopt path.evaluate() on native call errors",
+    "pr_url": "https://github.com/babel/babel/pull/18003",
+    "result": "skipped",
+    "tested_at": "2026-06-03T03:10:21.515Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/26861322371"
   }
 }
