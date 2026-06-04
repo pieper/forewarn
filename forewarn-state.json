@@ -934,5 +934,17 @@
     "result": "skipped",
     "tested_at": "2026-06-03T03:10:21.515Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/26861322371"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18043|280202de52dc5546155620f5afda8ee23f70ba86": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18043,
+    "pr_sha": "280202de52dc5546155620f5afda8ee23f70ba86",
+    "pr_title": "Lock v7 node requirements",
+    "pr_url": "https://github.com/babel/babel/pull/18043",
+    "result": "skipped",
+    "tested_at": "2026-06-04T03:09:41.511Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/26927875718"
   }
 }
