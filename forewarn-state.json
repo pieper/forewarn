@@ -982,5 +982,17 @@
     "result": "skipped",
     "tested_at": "2026-06-07T03:09:12.824Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27081146571"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18039|9980eb58c5c103734a9b4393587becedde5f1cd6": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18039,
+    "pr_sha": "9980eb58c5c103734a9b4393587becedde5f1cd6",
+    "pr_title": "perf: Improve the performance of processing source maps",
+    "pr_url": "https://github.com/babel/babel/pull/18039",
+    "result": "skipped",
+    "tested_at": "2026-06-08T03:09:42.881Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27113757525"
   }
 }
