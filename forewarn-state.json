@@ -1018,5 +1018,17 @@
     "result": "skipped",
     "tested_at": "2026-06-10T03:08:13.480Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27250410865"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17150|cb11098a3fa8ba40afd5d04ec50427839a35bc7a": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17150,
+    "pr_sha": "cb11098a3fa8ba40afd5d04ec50427839a35bc7a",
+    "pr_title": "Fix (@babel/plugin-transform-computed-properties): rest spread data is lost",
+    "pr_url": "https://github.com/babel/babel/pull/17150",
+    "result": "skipped",
+    "tested_at": "2026-06-11T03:08:08.816Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27321107871"
   }
 }
