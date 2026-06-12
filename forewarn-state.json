@@ -1030,5 +1030,17 @@
     "result": "skipped",
     "tested_at": "2026-06-11T03:08:08.816Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27321107871"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15370|e8611c699af733375455ef21297068af19491e3e": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15370,
+    "pr_sha": "e8611c699af733375455ef21297068af19491e3e",
+    "pr_title": "Improve sourcemaps of  during async transformation",
+    "pr_url": "https://github.com/babel/babel/pull/15370",
+    "result": "skipped",
+    "tested_at": "2026-06-12T03:09:33.367Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27391917529"
   }
 }
