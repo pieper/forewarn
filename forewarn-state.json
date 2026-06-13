@@ -1042,5 +1042,17 @@
     "result": "skipped",
     "tested_at": "2026-06-12T03:09:33.367Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27391917529"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17223|37662c4cc70cdb00754fd53f596c20d1f673fe45": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17223,
+    "pr_sha": "37662c4cc70cdb00754fd53f596c20d1f673fe45",
+    "pr_title": "fix: Should respect ",
+    "pr_url": "https://github.com/babel/babel/pull/17223",
+    "result": "skipped",
+    "tested_at": "2026-06-13T03:07:49.340Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27454748974"
   }
 }
