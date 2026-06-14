@@ -1054,5 +1054,17 @@
     "result": "skipped",
     "tested_at": "2026-06-13T03:07:49.340Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27454748974"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17866|0cdd5f3ef2e7dda0731db0093725887aeec65bca": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17866,
+    "pr_sha": "0cdd5f3ef2e7dda0731db0093725887aeec65bca",
+    "pr_title": "[7.x backport] Add  to JSX transform",
+    "pr_url": "https://github.com/babel/babel/pull/17866",
+    "result": "skipped",
+    "tested_at": "2026-06-14T03:09:33.009Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27486746957"
   }
 }
