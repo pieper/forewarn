@@ -1066,5 +1066,17 @@
     "result": "skipped",
     "tested_at": "2026-06-14T03:09:33.009Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27486746957"
+  },
+  "dcmjs-org/dcmjs|babel/babel|16045|1187c829adc676dccbb259087f6bc2c085176a29": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 16045,
+    "pr_sha": "1187c829adc676dccbb259087f6bc2c085176a29",
+    "pr_title": "Support resolveGlobals options to fix wrong import",
+    "pr_url": "https://github.com/babel/babel/pull/16045",
+    "result": "skipped",
+    "tested_at": "2026-06-15T03:11:12.767Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27521672141"
   }
 }
