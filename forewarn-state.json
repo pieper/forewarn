@@ -1078,5 +1078,17 @@
     "result": "skipped",
     "tested_at": "2026-06-15T03:11:12.767Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27521672141"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15255|f19ba6e1e7487a035890d3d33797a5a361c556fd": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15255,
+    "pr_sha": "f19ba6e1e7487a035890d3d33797a5a361c556fd",
+    "pr_title": "Improve comment generation after compilation",
+    "pr_url": "https://github.com/babel/babel/pull/15255",
+    "result": "skipped",
+    "tested_at": "2026-06-16T03:10:47.221Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27591433671"
   }
 }
