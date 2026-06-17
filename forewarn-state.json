@@ -1090,5 +1090,17 @@
     "result": "skipped",
     "tested_at": "2026-06-16T03:10:47.221Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27591433671"
+  },
+  "dcmjs-org/dcmjs|babel/babel|16530|6aff5124283813090bdab9dcf7cc78b4c63599d8": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 16530,
+    "pr_sha": "6aff5124283813090bdab9dcf7cc78b4c63599d8",
+    "pr_title": "Enums omitted from scope binding",
+    "pr_url": "https://github.com/babel/babel/pull/16530",
+    "result": "skipped",
+    "tested_at": "2026-06-17T03:09:28.834Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27663117167"
   }
 }
