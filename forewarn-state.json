@@ -1102,5 +1102,17 @@
     "result": "skipped",
     "tested_at": "2026-06-17T03:09:28.834Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27663117167"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17980|bcc0947d7c6f6351c5755ed9d92e48ff9a08d179": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17980,
+    "pr_sha": "bcc0947d7c6f6351c5755ed9d92e48ff9a08d179",
+    "pr_title": "Parse Import Sync proposal",
+    "pr_url": "https://github.com/babel/babel/pull/17980",
+    "result": "skipped",
+    "tested_at": "2026-06-18T03:08:57.615Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27734078319"
   }
 }
