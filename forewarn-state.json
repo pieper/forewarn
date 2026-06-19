@@ -1114,5 +1114,17 @@
     "result": "skipped",
     "tested_at": "2026-06-18T03:08:57.615Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27734078319"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15635|f19e9b728a2616b11622c5f5db3aeca3f814591a": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15635,
+    "pr_sha": "f19e9b728a2616b11622c5f5db3aeca3f814591a",
+    "pr_title": "feat(transform-react-pure-annotations): mark React.Fragment as pure",
+    "pr_url": "https://github.com/babel/babel/pull/15635",
+    "result": "skipped",
+    "tested_at": "2026-06-19T03:09:54.171Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27802943470"
   }
 }
