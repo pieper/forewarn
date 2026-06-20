@@ -1126,5 +1126,17 @@
     "result": "skipped",
     "tested_at": "2026-06-19T03:09:54.171Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27802943470"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15698|83e04ac9de287638a8cdceb7c8d8d93eb648e384": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15698,
+    "pr_sha": "83e04ac9de287638a8cdceb7c8d8d93eb648e384",
+    "pr_title": "Refactor Binding properties and cache Binding instances",
+    "pr_url": "https://github.com/babel/babel/pull/15698",
+    "result": "skipped",
+    "tested_at": "2026-06-20T03:07:52.228Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27858340863"
   }
 }
