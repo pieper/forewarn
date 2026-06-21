@@ -1138,5 +1138,17 @@
     "result": "skipped",
     "tested_at": "2026-06-20T03:07:52.228Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27858340863"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15512|dcfee0a8e8511d8135a4a5ad704bc17e6a30a640": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15512,
+    "pr_sha": "dcfee0a8e8511d8135a4a5ad704bc17e6a30a640",
+    "pr_title": "Warn when an output file is also used as an input file",
+    "pr_url": "https://github.com/babel/babel/pull/15512",
+    "result": "skipped",
+    "tested_at": "2026-06-21T03:10:23.560Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27891827802"
   }
 }
