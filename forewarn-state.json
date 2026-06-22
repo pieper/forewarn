@@ -1150,5 +1150,17 @@
     "result": "skipped",
     "tested_at": "2026-06-21T03:10:23.560Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27891827802"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18084|6ab1210ae8de612d5c9094da1e8eda852d35cbcb": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18084,
+    "pr_sha": "6ab1210ae8de612d5c9094da1e8eda852d35cbcb",
+    "pr_title": "refactor: Shrink validator identifier size",
+    "pr_url": "https://github.com/babel/babel/pull/18084",
+    "result": "skipped",
+    "tested_at": "2026-06-22T03:10:09.953Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27927065622"
   }
 }
