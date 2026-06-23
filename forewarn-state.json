@@ -1162,5 +1162,17 @@
     "result": "skipped",
     "tested_at": "2026-06-22T03:10:09.953Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/27927065622"
+  },
+  "dcmjs-org/dcmjs|babel/babel|16178|8c92fe5328db8e64392bdc15ade315141ecb444d": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 16178,
+    "pr_sha": "8c92fe5328db8e64392bdc15ade315141ecb444d",
+    "pr_title": "Improve output for re-exporting",
+    "pr_url": "https://github.com/babel/babel/pull/16178",
+    "result": "skipped",
+    "tested_at": "2026-06-23T03:07:35.833Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/27999358052"
   }
 }
