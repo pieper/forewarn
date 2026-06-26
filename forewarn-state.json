@@ -1198,5 +1198,17 @@
     "result": "skipped",
     "tested_at": "2026-06-25T03:07:27.765Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/28144143002"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15456|0519e447321a52e1991376345b7edfd5b646457d": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15456,
+    "pr_sha": "0519e447321a52e1991376345b7edfd5b646457d",
+    "pr_title": "feat: add esm experimental-loader support to @babel/register",
+    "pr_url": "https://github.com/babel/babel/pull/15456",
+    "result": "skipped",
+    "tested_at": "2026-06-26T03:08:19.822Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/28214556842"
   }
 }
