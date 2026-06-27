@@ -1210,5 +1210,17 @@
     "result": "skipped",
     "tested_at": "2026-06-26T03:08:19.822Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/28214556842"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15368|bc355de3f0abf0e1a5f149f97b7f0bc0ea050357": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15368,
+    "pr_sha": "bc355de3f0abf0e1a5f149f97b7f0bc0ea050357",
+    "pr_title": "Merge injected es6 imports",
+    "pr_url": "https://github.com/babel/babel/pull/15368",
+    "result": "skipped",
+    "tested_at": "2026-06-27T03:07:15.112Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/28276757001"
   }
 }
