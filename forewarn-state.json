@@ -1258,5 +1258,17 @@
     "result": "skipped",
     "tested_at": "2026-07-01T03:09:11.422Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/28490738392"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18097|4f97876deceb8e3eaafd45e537513d34c63a2fb0": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18097,
+    "pr_sha": "4f97876deceb8e3eaafd45e537513d34c63a2fb0",
+    "pr_title": "Use built-in glob in Node.js",
+    "pr_url": "https://github.com/babel/babel/pull/18097",
+    "result": "skipped",
+    "tested_at": "2026-07-02T03:06:45.391Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/28562463240"
   }
 }
