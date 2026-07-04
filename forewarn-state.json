@@ -1282,5 +1282,17 @@
     "result": "skipped",
     "tested_at": "2026-07-03T03:05:05.201Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/28635636129"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18035|597fdc068a9141af2605b486b6be6c9c0d0e0dff": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18035,
+    "pr_sha": "597fdc068a9141af2605b486b6be6c9c0d0e0dff",
+    "pr_title": "chore: Remove  unused  deps",
+    "pr_url": "https://github.com/babel/babel/pull/18035",
+    "result": "skipped",
+    "tested_at": "2026-07-04T03:04:34.139Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/28692963818"
   }
 }
