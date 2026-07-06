@@ -1306,5 +1306,17 @@
     "result": "skipped",
     "tested_at": "2026-07-05T03:05:55.096Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/28727734129"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18104|aef932905c34854f542588dd4ab43bd164242e9a": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18104,
+    "pr_sha": "aef932905c34854f542588dd4ab43bd164242e9a",
+    "pr_title": "Update benchmark of validators",
+    "pr_url": "https://github.com/babel/babel/pull/18104",
+    "result": "skipped",
+    "tested_at": "2026-07-06T03:06:43.853Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/28765095778"
   }
 }
