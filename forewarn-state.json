@@ -1402,5 +1402,17 @@
     "result": "skipped",
     "tested_at": "2026-07-13T03:04:22.449Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/29220830768"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18118|299a5da30f6297cebe88aed42e976dcb951eda39": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18118,
+    "pr_sha": "299a5da30f6297cebe88aed42e976dcb951eda39",
+    "pr_title": "fix: evaluate computed __proto__ object key as an own property",
+    "pr_url": "https://github.com/babel/babel/pull/18118",
+    "result": "skipped",
+    "tested_at": "2026-07-14T03:02:31.580Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/29302518816"
   }
 }
