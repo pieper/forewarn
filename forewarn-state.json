@@ -1414,5 +1414,17 @@
     "result": "skipped",
     "tested_at": "2026-07-14T03:02:31.580Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/29302518816"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17602|7bb0fb7a07ae1d7c4034b0c5bd24ec80b2b216ef": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17602,
+    "pr_sha": "7bb0fb7a07ae1d7c4034b0c5bd24ec80b2b216ef",
+    "pr_title": "fix(parser): prevent line increments for U+2028/U+2029 in tokenizer",
+    "pr_url": "https://github.com/babel/babel/pull/17602",
+    "result": "skipped",
+    "tested_at": "2026-07-15T03:03:00.401Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/29385546747"
   }
 }
