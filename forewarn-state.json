@@ -1426,5 +1426,17 @@
     "result": "skipped",
     "tested_at": "2026-07-15T03:03:00.401Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/29385546747"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18131|a7f071abeb455bd4c838d2463df8a494182678de": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18131,
+    "pr_sha": "a7f071abeb455bd4c838d2463df8a494182678de",
+    "pr_title": "fix(register): do not inherit parent execArgv",
+    "pr_url": "https://github.com/babel/babel/pull/18131",
+    "result": "skipped",
+    "tested_at": "2026-07-16T03:03:11.256Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/29468025591"
   }
 }
