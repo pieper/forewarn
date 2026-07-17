@@ -1438,5 +1438,17 @@
     "result": "skipped",
     "tested_at": "2026-07-16T03:03:11.256Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/29468025591"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15253|d6067d5d20021249b83f523278643b2501f8a9ca": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15253,
+    "pr_sha": "d6067d5d20021249b83f523278643b2501f8a9ca",
+    "pr_title": "fix:  in arrow function in class constructor parameter",
+    "pr_url": "https://github.com/babel/babel/pull/15253",
+    "result": "skipped",
+    "tested_at": "2026-07-17T03:03:30.418Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/29551415917"
   }
 }
