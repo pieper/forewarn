@@ -1450,5 +1450,17 @@
     "result": "skipped",
     "tested_at": "2026-07-17T03:03:30.418Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/29551415917"
+  },
+  "dcmjs-org/dcmjs|toji/gl-matrix|496|fc1bbbba78acca2cfda66f4ebd1efc03272bf9b0": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "toji/gl-matrix",
+    "dep_package": "gl-matrix",
+    "pr_number": 496,
+    "pr_sha": "fc1bbbba78acca2cfda66f4ebd1efc03272bf9b0",
+    "pr_title": "Branchless array initialization; faster rounding; other minor enhancements",
+    "pr_url": "https://github.com/toji/gl-matrix/pull/496",
+    "result": "skipped",
+    "tested_at": "2026-07-18T03:03:02.205Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/29628100497"
   }
 }
