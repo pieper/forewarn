@@ -1462,5 +1462,17 @@
     "result": "skipped",
     "tested_at": "2026-07-18T03:03:02.205Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/29628100497"
+  },
+  "dcmjs-org/dcmjs|babel/babel|14431|9260660b75ad144557f1ef9eaa7280faceba1d72": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 14431,
+    "pr_sha": "9260660b75ad144557f1ef9eaa7280faceba1d72",
+    "pr_title": "Support native accessor property in private-in transform",
+    "pr_url": "https://github.com/babel/babel/pull/14431",
+    "result": "skipped",
+    "tested_at": "2026-07-19T03:04:11.984Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/29671149022"
   }
 }
