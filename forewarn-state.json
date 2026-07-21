@@ -1486,5 +1486,17 @@
     "result": "skipped",
     "tested_at": "2026-07-20T03:04:13.140Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/29713807338"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17956|070a740a8bfe9bcc49c3627190d38c6ac7b6e315": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17956,
+    "pr_sha": "070a740a8bfe9bcc49c3627190d38c6ac7b6e315",
+    "pr_title": "Add eslint-plugin configs",
+    "pr_url": "https://github.com/babel/babel/pull/17956",
+    "result": "skipped",
+    "tested_at": "2026-07-21T03:03:36.947Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/29797462621"
   }
 }
