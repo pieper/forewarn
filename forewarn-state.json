@@ -1498,5 +1498,17 @@
     "result": "skipped",
     "tested_at": "2026-07-21T03:03:36.947Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/29797462621"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18143|e8a630f5e6ada8f5301e6e07426641fc6a562471": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18143,
+    "pr_sha": "e8a630f5e6ada8f5301e6e07426641fc6a562471",
+    "pr_title": "fix: warn instead of throw for removed  option in preset-env",
+    "pr_url": "https://github.com/babel/babel/pull/18143",
+    "result": "skipped",
+    "tested_at": "2026-07-22T03:03:24.668Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/29887418627"
   }
 }
