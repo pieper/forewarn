@@ -1522,5 +1522,17 @@
     "result": "skipped",
     "tested_at": "2026-07-23T03:03:51.158Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/29975954229"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18006|3f4b6ca84f529575d91b3c1d3185c18bd03b65e3": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18006,
+    "pr_sha": "3f4b6ca84f529575d91b3c1d3185c18bd03b65e3",
+    "pr_title": "Add experimental support for range mappings in source maps.",
+    "pr_url": "https://github.com/babel/babel/pull/18006",
+    "result": "skipped",
+    "tested_at": "2026-07-24T03:03:28.437Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/30063205536"
   }
 }
