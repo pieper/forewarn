@@ -1534,5 +1534,17 @@
     "result": "skipped",
     "tested_at": "2026-07-24T03:03:28.437Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/30063205536"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18144|855c7445fa55c380e261fdb031a8a1b9e252b71f": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18144,
+    "pr_sha": "855c7445fa55c380e261fdb031a8a1b9e252b71f",
+    "pr_title": "fix: Load ESM fixture options default exports",
+    "pr_url": "https://github.com/babel/babel/pull/18144",
+    "result": "skipped",
+    "tested_at": "2026-07-25T03:02:44.137Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/30141509465"
   }
 }
