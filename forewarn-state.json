@@ -1558,5 +1558,17 @@
     "result": "skipped",
     "tested_at": "2026-07-26T03:03:40.514Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/30185536267"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18102|ae45a72af21b41dddbb241eed36413a0325ec3d0": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18102,
+    "pr_sha": "ae45a72af21b41dddbb241eed36413a0325ec3d0",
+    "pr_title": "Use cache only when ",
+    "pr_url": "https://github.com/babel/babel/pull/18102",
+    "result": "skipped",
+    "tested_at": "2026-07-27T03:04:36.611Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/30233666427"
   }
 }
