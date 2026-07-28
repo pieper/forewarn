@@ -1570,5 +1570,17 @@
     "result": "skipped",
     "tested_at": "2026-07-27T03:04:36.611Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/30233666427"
+  },
+  "dcmjs-org/dcmjs|babel/babel|16091|6e237ef33b25003dfdb298b0c3f29595fda12036": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 16091,
+    "pr_sha": "6e237ef33b25003dfdb298b0c3f29595fda12036",
+    "pr_title": "fix: support module expression scopes",
+    "pr_url": "https://github.com/babel/babel/pull/16091",
+    "result": "skipped",
+    "tested_at": "2026-07-28T03:03:17.474Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/30324811174"
   }
 }
