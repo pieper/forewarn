@@ -1582,5 +1582,17 @@
     "result": "skipped",
     "tested_at": "2026-07-28T03:03:17.474Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/30324811174"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15034|be960915eb7ec2189f3b80a1f9660929c69b2baf": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15034,
+    "pr_sha": "be960915eb7ec2189f3b80a1f9660929c69b2baf",
+    "pr_title": "Simplify deps graph relying on  peerDependency",
+    "pr_url": "https://github.com/babel/babel/pull/15034",
+    "result": "skipped",
+    "tested_at": "2026-07-29T03:03:24.265Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/30418450278"
   }
 }
