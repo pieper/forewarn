@@ -1594,5 +1594,17 @@
     "result": "skipped",
     "tested_at": "2026-07-29T03:03:24.265Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/30418450278"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18155|ce3fe03b52901b1c664073f0fd1b5314a8bc7829": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18155,
+    "pr_sha": "ce3fe03b52901b1c664073f0fd1b5314a8bc7829",
+    "pr_title": "Clean up Prettier E2E test script",
+    "pr_url": "https://github.com/babel/babel/pull/18155",
+    "result": "skipped",
+    "tested_at": "2026-07-31T03:03:38.670Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/30600575405"
   }
 }
