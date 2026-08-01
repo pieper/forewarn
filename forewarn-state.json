@@ -1606,5 +1606,17 @@
     "result": "skipped",
     "tested_at": "2026-07-31T03:03:38.670Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/30600575405"
+  },
+  "dcmjs-org/dcmjs|toji/gl-matrix|495|6250ae8ba148f20ec5b2651ede5dafdb990a66dc": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "toji/gl-matrix",
+    "dep_package": "gl-matrix",
+    "pr_number": 495,
+    "pr_sha": "6250ae8ba148f20ec5b2651ede5dafdb990a66dc",
+    "pr_title": "Feat improve types",
+    "pr_url": "https://github.com/toji/gl-matrix/pull/495",
+    "result": "skipped",
+    "tested_at": "2026-08-01T03:03:53.247Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/30681204622"
   }
 }
