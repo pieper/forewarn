@@ -1642,5 +1642,17 @@
     "result": "skipped",
     "tested_at": "2026-08-04T03:03:13.346Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/30873588612"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18063|16d8e1b07affece2f653464a281f5c25bb5ab198": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18063,
+    "pr_sha": "16d8e1b07affece2f653464a281f5c25bb5ab198",
+    "pr_title": "Disallow new import prop access",
+    "pr_url": "https://github.com/babel/babel/pull/18063",
+    "result": "skipped",
+    "tested_at": "2026-08-05T03:03:12.618Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/30971090317"
   }
 }
