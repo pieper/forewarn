@@ -1666,5 +1666,17 @@
     "result": "skipped",
     "tested_at": "2026-08-06T05:13:07.314Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/31073426893"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18173|7753c428786d873238e9584a4e9d6fc4f1849e67": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18173,
+    "pr_sha": "7753c428786d873238e9584a4e9d6fc4f1849e67",
+    "pr_title": "Update test262",
+    "pr_url": "https://github.com/babel/babel/pull/18173",
+    "result": "skipped",
+    "tested_at": "2026-08-07T04:22:32.690Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/31147195409"
   }
 }
