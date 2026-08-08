@@ -1678,5 +1678,17 @@
     "result": "skipped",
     "tested_at": "2026-08-07T04:22:32.690Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/31147195409"
+  },
+  "dcmjs-org/dcmjs|babel/babel|16743|340fb3baf73cbf0e1c72d9971a11174c02689a34": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 16743,
+    "pr_sha": "340fb3baf73cbf0e1c72d9971a11174c02689a34",
+    "pr_title": "Work with symbol polyfill",
+    "pr_url": "https://github.com/babel/babel/pull/16743",
+    "result": "skipped",
+    "tested_at": "2026-08-08T03:20:25.718Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/31236951377"
   }
 }
