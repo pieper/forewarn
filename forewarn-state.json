@@ -1690,5 +1690,17 @@
     "result": "skipped",
     "tested_at": "2026-08-08T03:20:25.718Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/31236951377"
+  },
+  "dcmjs-org/dcmjs|babel/babel|14966|56346f28bde045cb396534ee405c61e3efe98c88": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 14966,
+    "pr_sha": "56346f28bde045cb396534ee405c61e3efe98c88",
+    "pr_title": "Implement support for internal @babel/core plugins",
+    "pr_url": "https://github.com/babel/babel/pull/14966",
+    "result": "skipped",
+    "tested_at": "2026-08-09T03:29:16.633Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/31292495170"
   }
 }
