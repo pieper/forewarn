@@ -1714,5 +1714,17 @@
     "result": "skipped",
     "tested_at": "2026-08-10T03:48:42.695Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/31353620312"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15240|6f2c0494c4dc59b1e059a96b692f862a7fe0f442": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15240,
+    "pr_sha": "6f2c0494c4dc59b1e059a96b692f862a7fe0f442",
+    "pr_title": "Update module expressions parsing",
+    "pr_url": "https://github.com/babel/babel/pull/15240",
+    "result": "skipped",
+    "tested_at": "2026-08-11T03:38:50.618Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/31455970987"
   }
 }
