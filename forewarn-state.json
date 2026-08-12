@@ -1726,5 +1726,17 @@
     "result": "skipped",
     "tested_at": "2026-08-11T03:38:50.618Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/31455970987"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17617|2a3e6cd1ef1a3dad0bf287b4dbfc2214ca80fc6e": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17617,
+    "pr_sha": "2a3e6cd1ef1a3dad0bf287b4dbfc2214ca80fc6e",
+    "pr_title": "Add parsing&printing support for ",
+    "pr_url": "https://github.com/babel/babel/pull/17617",
+    "result": "skipped",
+    "tested_at": "2026-08-12T04:01:56.097Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/31561912956"
   }
 }
