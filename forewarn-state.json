@@ -1750,5 +1750,17 @@
     "result": "skipped",
     "tested_at": "2026-08-13T04:06:15.978Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/31665931385"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18167|a5a92acf9d24d30143595691b3a857cd1cd76e93": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18167,
+    "pr_sha": "a5a92acf9d24d30143595691b3a857cd1cd76e93",
+    "pr_title": "fix(transform-typescript): improve error message for exported enums (#18156)",
+    "pr_url": "https://github.com/babel/babel/pull/18167",
+    "result": "skipped",
+    "tested_at": "2026-08-14T04:02:13.556Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/31768588867"
   }
 }
