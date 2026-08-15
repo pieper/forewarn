@@ -1762,5 +1762,17 @@
     "result": "skipped",
     "tested_at": "2026-08-14T04:02:13.556Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/31768588867"
+  },
+  "dcmjs-org/dcmjs|toji/gl-matrix|362|e00c28e3029f2593a1bec6291caefb117cd3cdcd": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "toji/gl-matrix",
+    "dep_package": "gl-matrix",
+    "pr_number": 362,
+    "pr_sha": "e00c28e3029f2593a1bec6291caefb117cd3cdcd",
+    "pr_title": "mat4: Support infinite far planes in mat4.frustum",
+    "pr_url": "https://github.com/toji/gl-matrix/pull/362",
+    "result": "skipped",
+    "tested_at": "2026-08-15T02:47:46.322Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/31860073800"
   }
 }
