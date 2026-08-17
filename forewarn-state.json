@@ -1786,5 +1786,17 @@
     "result": "skipped",
     "tested_at": "2026-08-16T02:54:51.160Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/31922974594"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18183|bb1fb44a9c9c6bd2dbbaaffd0d4238bf936b3a44": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18183,
+    "pr_sha": "bb1fb44a9c9c6bd2dbbaaffd0d4238bf936b3a44",
+    "pr_title": "fix(remove): unwrap single sequence expression",
+    "pr_url": "https://github.com/babel/babel/pull/18183",
+    "result": "skipped",
+    "tested_at": "2026-08-17T02:54:58.208Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/31989437304"
   }
 }
