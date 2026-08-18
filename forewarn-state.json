@@ -1798,5 +1798,17 @@
     "result": "skipped",
     "tested_at": "2026-08-17T02:54:58.208Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/31989437304"
+  },
+  "dcmjs-org/dcmjs|cthackers/adm-zip|572|9d0b4462aa13a37119ee1dc6adcd8752493b35c8": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "cthackers/adm-zip",
+    "dep_package": "adm-zip",
+    "pr_number": 572,
+    "pr_sha": "9d0b4462aa13a37119ee1dc6adcd8752493b35c8",
+    "pr_title": "Bump brace-expansion and rimraf",
+    "pr_url": "https://github.com/cthackers/adm-zip/pull/572",
+    "result": "skipped",
+    "tested_at": "2026-08-18T02:51:30.112Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/32093299763"
   }
 }
