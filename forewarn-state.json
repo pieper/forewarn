@@ -1810,5 +1810,17 @@
     "result": "skipped",
     "tested_at": "2026-08-18T02:51:30.112Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/32093299763"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15553|80574cf73cfd1c710cbe554d7f71ce97160f1e7a": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15553,
+    "pr_sha": "80574cf73cfd1c710cbe554d7f71ce97160f1e7a",
+    "pr_title": "Fix Edge Case For Template Strings Having An 'undefined' Label During Token Conversion",
+    "pr_url": "https://github.com/babel/babel/pull/15553",
+    "result": "skipped",
+    "tested_at": "2026-08-19T02:52:43.649Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/32210086835"
   }
 }
