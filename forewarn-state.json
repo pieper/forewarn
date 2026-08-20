@@ -1822,5 +1822,17 @@
     "result": "skipped",
     "tested_at": "2026-08-19T02:52:43.649Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/32210086835"
+  },
+  "dcmjs-org/dcmjs|toji/gl-matrix|334|7f19c7e00c104e4c9af8474f9bff57b1639eee5b": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "toji/gl-matrix",
+    "dep_package": "gl-matrix",
+    "pr_number": 334,
+    "pr_sha": "7f19c7e00c104e4c9af8474f9bff57b1639eee5b",
+    "pr_title": "Add an element-wise 'abs' method for vectors",
+    "pr_url": "https://github.com/toji/gl-matrix/pull/334",
+    "result": "skipped",
+    "tested_at": "2026-08-20T02:52:13.505Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/32326124369"
   }
 }
