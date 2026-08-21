@@ -1834,5 +1834,17 @@
     "result": "skipped",
     "tested_at": "2026-08-20T02:52:13.505Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/32326124369"
+  },
+  "dcmjs-org/dcmjs|lodash/lodash|6275|a7858b9edfd1678ec5a944faab44c34bccf4d2e4": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "lodash/lodash",
+    "dep_package": "lodash.clonedeep",
+    "pr_number": 6275,
+    "pr_sha": "a7858b9edfd1678ec5a944faab44c34bccf4d2e4",
+    "pr_title": "fix(truncate): prevent infinite loop when separator matches the empty string",
+    "pr_url": "https://github.com/lodash/lodash/pull/6275",
+    "result": "skipped",
+    "tested_at": "2026-08-21T02:57:57.238Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/32441621184"
   }
 }
