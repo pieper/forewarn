@@ -1846,5 +1846,17 @@
     "result": "skipped",
     "tested_at": "2026-08-21T02:57:57.238Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/32441621184"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18042|85e31a0793fb1a9bb0ac31bffe81d4692735bb31": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18042,
+    "pr_sha": "85e31a0793fb1a9bb0ac31bffe81d4692735bb31",
+    "pr_title": "Make type checking faster",
+    "pr_url": "https://github.com/babel/babel/pull/18042",
+    "result": "skipped",
+    "tested_at": "2026-08-24T02:58:21.464Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/32684782444"
   }
 }
