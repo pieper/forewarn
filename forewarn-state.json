@@ -1858,5 +1858,17 @@
     "result": "skipped",
     "tested_at": "2026-08-24T02:58:21.464Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/32684782444"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18194|ebb36c10f2dc4f02f93260be8ceccf4941aff57a": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18194,
+    "pr_sha": "ebb36c10f2dc4f02f93260be8ceccf4941aff57a",
+    "pr_title": "fix: improve for loop closure environment check",
+    "pr_url": "https://github.com/babel/babel/pull/18194",
+    "result": "skipped",
+    "tested_at": "2026-08-25T02:53:39.362Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/32803087345"
   }
 }
