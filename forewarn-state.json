@@ -1870,5 +1870,17 @@
     "result": "skipped",
     "tested_at": "2026-08-25T02:53:39.362Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/32803087345"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18186|a60dffc56a59294ffab8599285c020e8979aad81": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18186,
+    "pr_sha": "a60dffc56a59294ffab8599285c020e8979aad81",
+    "pr_title": "Fix  bypassing custom  on array-backed Proxies",
+    "pr_url": "https://github.com/babel/babel/pull/18186",
+    "result": "skipped",
+    "tested_at": "2026-08-26T02:59:19.138Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/32924723122"
   }
 }
