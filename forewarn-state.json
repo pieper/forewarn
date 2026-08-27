@@ -1882,5 +1882,17 @@
     "result": "skipped",
     "tested_at": "2026-08-26T02:59:19.138Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/32924723122"
+  },
+  "dcmjs-org/dcmjs|babel/babel|14485|5261a4afc076c46e08a34fc10906596822e33b09": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 14485,
+    "pr_sha": "5261a4afc076c46e08a34fc10906596822e33b09",
+    "pr_title": "feat: New @babel/helper-ast-match package",
+    "pr_url": "https://github.com/babel/babel/pull/14485",
+    "result": "skipped",
+    "tested_at": "2026-08-27T12:16:53.533Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/33071063603"
   }
 }
