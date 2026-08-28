@@ -1894,5 +1894,17 @@
     "result": "skipped",
     "tested_at": "2026-08-27T12:16:53.533Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/33071063603"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18189|e0d3f555d59f2fb4f6f451c21481a62df839c1a1": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18189,
+    "pr_sha": "e0d3f555d59f2fb4f6f451c21481a62df839c1a1",
+    "pr_title": "ci: update agentscan",
+    "pr_url": "https://github.com/babel/babel/pull/18189",
+    "result": "skipped",
+    "tested_at": "2026-08-28T13:41:57.339Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/33176564584"
   }
 }
