@@ -1930,5 +1930,17 @@
     "result": "skipped",
     "tested_at": "2026-08-30T07:46:37.707Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/33299979558"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18190|a0fce53bce1f3f5eb1858d8b50bb6d223c078143": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18190,
+    "pr_sha": "a0fce53bce1f3f5eb1858d8b50bb6d223c078143",
+    "pr_title": "fix(ts): improve variable handling in namespace",
+    "pr_url": "https://github.com/babel/babel/pull/18190",
+    "result": "skipped",
+    "tested_at": "2026-08-31T08:00:57.594Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/33370889470"
   }
 }
