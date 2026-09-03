@@ -1942,5 +1942,17 @@
     "result": "skipped",
     "tested_at": "2026-08-31T08:00:57.594Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/33370889470"
+  },
+  "dcmjs-org/dcmjs|toji/gl-matrix|422|28213e327cca3d97b49be16e85277404fc471893": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "toji/gl-matrix",
+    "dep_package": "gl-matrix",
+    "pr_number": 422,
+    "pr_sha": "28213e327cca3d97b49be16e85277404fc471893",
+    "pr_title": "[mat4] add optional symmetric param for perspective and ortho",
+    "pr_url": "https://github.com/toji/gl-matrix/pull/422",
+    "result": "skipped",
+    "tested_at": "2026-09-03T06:47:59.657Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/33724806932"
   }
 }
