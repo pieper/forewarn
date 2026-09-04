@@ -1954,5 +1954,17 @@
     "result": "skipped",
     "tested_at": "2026-09-03T06:47:59.657Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/33724806932"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18197|61456e344a5df44b85d14fbcfd11bd7d8be48541": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18197,
+    "pr_sha": "61456e344a5df44b85d14fbcfd11bd7d8be48541",
+    "pr_title": "Fix computed object rest exclusions in loose mode",
+    "pr_url": "https://github.com/babel/babel/pull/18197",
+    "result": "skipped",
+    "tested_at": "2026-09-04T06:51:42.633Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/33846110585"
   }
 }
