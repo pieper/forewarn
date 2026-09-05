@@ -1966,5 +1966,17 @@
     "result": "skipped",
     "tested_at": "2026-09-04T06:51:42.633Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/33846110585"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15583|a783c6df4e6b48e4a7236ed697c6e31d27d30001": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15583,
+    "pr_sha": "a783c6df4e6b48e4a7236ed697c6e31d27d30001",
+    "pr_title": "fix: Wrong order of initialization in TS class constructor",
+    "pr_url": "https://github.com/babel/babel/pull/15583",
+    "result": "skipped",
+    "tested_at": "2026-09-05T06:37:31.443Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/33950273053"
   }
 }
