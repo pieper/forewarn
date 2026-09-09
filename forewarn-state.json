@@ -2014,5 +2014,17 @@
     "result": "skipped",
     "tested_at": "2026-09-08T06:50:51.357Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/34196462672"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17351|3fcb173c7f0efbbdb44edffda5fe78ceda54d631": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17351,
+    "pr_sha": "3fcb173c7f0efbbdb44edffda5fe78ceda54d631",
+    "pr_title": "Avoid  from traversing ",
+    "pr_url": "https://github.com/babel/babel/pull/17351",
+    "result": "skipped",
+    "tested_at": "2026-09-09T06:59:52.518Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/34321614693"
   }
 }
