@@ -2026,5 +2026,17 @@
     "result": "skipped",
     "tested_at": "2026-09-09T06:59:52.518Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/34321614693"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15285|a8fded4ba7d8f6691b7ee3f93744d1c10051134f": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15285,
+    "pr_sha": "a8fded4ba7d8f6691b7ee3f93744d1c10051134f",
+    "pr_title": "Enable statically analyzable TDZ checks by default",
+    "pr_url": "https://github.com/babel/babel/pull/15285",
+    "result": "skipped",
+    "tested_at": "2026-09-10T06:56:20.290Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/34447463627"
   }
 }
