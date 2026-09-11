@@ -2038,5 +2038,17 @@
     "result": "skipped",
     "tested_at": "2026-09-10T06:56:20.290Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/34447463627"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18232|bc23b9c7d24d62024a51926594058dba989c213b": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18232,
+    "pr_sha": "bc23b9c7d24d62024a51926594058dba989c213b",
+    "pr_title": "Replace  with ",
+    "pr_url": "https://github.com/babel/babel/pull/18232",
+    "result": "skipped",
+    "tested_at": "2026-09-11T06:55:57.823Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/34572031936"
   }
 }
