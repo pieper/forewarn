@@ -2050,5 +2050,17 @@
     "result": "skipped",
     "tested_at": "2026-09-11T06:55:57.823Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/34572031936"
+  },
+  "dcmjs-org/dcmjs|toji/gl-matrix|455|9db935820410cd2f0a84a965aa2a1cbe4afae326": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "toji/gl-matrix",
+    "dep_package": "gl-matrix",
+    "pr_number": 455,
+    "pr_sha": "9db935820410cd2f0a84a965aa2a1cbe4afae326",
+    "pr_title": "ES Module Support",
+    "pr_url": "https://github.com/toji/gl-matrix/pull/455",
+    "result": "skipped",
+    "tested_at": "2026-09-12T06:48:03.381Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/34679036357"
   }
 }
