@@ -2062,5 +2062,17 @@
     "result": "skipped",
     "tested_at": "2026-09-12T06:48:03.381Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/34679036357"
+  },
+  "dcmjs-org/dcmjs|lodash/lodash|6262|a26a35a852bb33893a619fbfc1b1164b5b86ad9d": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "lodash/lodash",
+    "dep_package": "lodash.clonedeep",
+    "pr_number": 6262,
+    "pr_sha": "a26a35a852bb33893a619fbfc1b1164b5b86ad9d",
+    "pr_title": "Preserve sparse array holes in cloneDeep",
+    "pr_url": "https://github.com/lodash/lodash/pull/6262",
+    "result": "skipped",
+    "tested_at": "2026-09-13T07:06:18.498Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/34744362540"
   }
 }
