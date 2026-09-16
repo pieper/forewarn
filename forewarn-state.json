@@ -2098,5 +2098,17 @@
     "result": "skipped",
     "tested_at": "2026-09-15T07:06:34.351Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/34939983804"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18225|b17b76af639075a1a99f6b1743dd6f300a81cfa7": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18225,
+    "pr_sha": "b17b76af639075a1a99f6b1743dd6f300a81cfa7",
+    "pr_title": "[7.x backport] fix: avoid removable fields as decorator evaluation hosts",
+    "pr_url": "https://github.com/babel/babel/pull/18225",
+    "result": "skipped",
+    "tested_at": "2026-09-16T07:06:39.781Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/35066855477"
   }
 }
