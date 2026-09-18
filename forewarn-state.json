@@ -2122,5 +2122,17 @@
     "result": "skipped",
     "tested_at": "2026-09-17T07:04:50.358Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/35192750740"
+  },
+  "dcmjs-org/dcmjs|lodash/lodash|6267|657de9d6218ce2f77ca2765fb542ddfe7b8d9314": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "lodash/lodash",
+    "dep_package": "lodash.clonedeep",
+    "pr_number": 6267,
+    "pr_sha": "657de9d6218ce2f77ca2765fb542ddfe7b8d9314",
+    "pr_title": "fix(invert): keep '__proto__' values as own keys",
+    "pr_url": "https://github.com/lodash/lodash/pull/6267",
+    "result": "skipped",
+    "tested_at": "2026-09-18T06:58:48.282Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/35317203054"
   }
 }
