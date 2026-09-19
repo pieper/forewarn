@@ -2134,5 +2134,17 @@
     "result": "skipped",
     "tested_at": "2026-09-18T06:58:48.282Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/35317203054"
+  },
+  "dcmjs-org/dcmjs|toji/gl-matrix|503|ee5f2278173943cb1e478d57f5d92f5b4e7024ff": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "toji/gl-matrix",
+    "dep_package": "gl-matrix",
+    "pr_number": 503,
+    "pr_sha": "ee5f2278173943cb1e478d57f5d92f5b4e7024ff",
+    "pr_title": "Fix lookAt and targetTo when view direction is parallel to up",
+    "pr_url": "https://github.com/toji/gl-matrix/pull/503",
+    "result": "skipped",
+    "tested_at": "2026-09-19T06:57:28.364Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/35427985533"
   }
 }
