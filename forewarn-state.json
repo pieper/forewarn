@@ -2146,5 +2146,17 @@
     "result": "skipped",
     "tested_at": "2026-09-19T06:57:28.364Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/35427985533"
+  },
+  "dcmjs-org/dcmjs|babel/babel|14484|0995c80773d0aecb7dd57628fba38af093a1fbde": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 14484,
+    "pr_sha": "0995c80773d0aecb7dd57628fba38af093a1fbde",
+    "pr_title": "More consistent API when using errorRecovery",
+    "pr_url": "https://github.com/babel/babel/pull/14484",
+    "result": "skipped",
+    "tested_at": "2026-09-20T07:22:42.737Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/35496680526"
   }
 }
