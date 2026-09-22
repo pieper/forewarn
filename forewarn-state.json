@@ -2158,5 +2158,17 @@
     "result": "skipped",
     "tested_at": "2026-09-20T07:22:42.737Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/35496680526"
+  },
+  "dcmjs-org/dcmjs|toji/gl-matrix|394|aecc9151f2aecb5c5d8e993115d4f8801769f361": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "toji/gl-matrix",
+    "dep_package": "gl-matrix",
+    "pr_number": 394,
+    "pr_sha": "aecc9151f2aecb5c5d8e993115d4f8801769f361",
+    "pr_title": "add vec2.setLength. fixes #393",
+    "pr_url": "https://github.com/toji/gl-matrix/pull/394",
+    "result": "skipped",
+    "tested_at": "2026-09-22T07:13:21.507Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/35698415762"
   }
 }
