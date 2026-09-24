@@ -2182,5 +2182,17 @@
     "result": "skipped",
     "tested_at": "2026-09-23T07:13:01.306Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/35830507009"
+  },
+  "dcmjs-org/dcmjs|babel/babel|15428|1ce3b9a77dd9345811a59a698331a1464c2390ab": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 15428,
+    "pr_sha": "1ce3b9a77dd9345811a59a698331a1464c2390ab",
+    "pr_title": "Don't lose comments when converting ESM to commonjs",
+    "pr_url": "https://github.com/babel/babel/pull/15428",
+    "result": "skipped",
+    "tested_at": "2026-09-24T07:05:07.725Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/35967677335"
   }
 }
