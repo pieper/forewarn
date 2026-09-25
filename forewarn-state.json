@@ -2194,5 +2194,17 @@
     "result": "skipped",
     "tested_at": "2026-09-24T07:05:07.725Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/35967677335"
+  },
+  "dcmjs-org/dcmjs|toji/gl-matrix|483|3933d8adce40a6cedbf259e6665d8c0bb8c0e9ab": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "toji/gl-matrix",
+    "dep_package": "gl-matrix",
+    "pr_number": 483,
+    "pr_sha": "3933d8adce40a6cedbf259e6665d8c0bb8c0e9ab",
+    "pr_title": "Bump nanoid and mocha",
+    "pr_url": "https://github.com/toji/gl-matrix/pull/483",
+    "result": "skipped",
+    "tested_at": "2026-09-25T07:02:25.982Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/36105608242"
   }
 }
