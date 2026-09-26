@@ -2206,5 +2206,17 @@
     "result": "skipped",
     "tested_at": "2026-09-25T07:02:25.982Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/36105608242"
+  },
+  "dcmjs-org/dcmjs|toji/gl-matrix|390|b5952f8698b7e79b4f589a89ebf1df382f549fbb": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "toji/gl-matrix",
+    "dep_package": "gl-matrix",
+    "pr_number": 390,
+    "pr_sha": "b5952f8698b7e79b4f589a89ebf1df382f549fbb",
+    "pr_title": "Support TS in sub packages",
+    "pr_url": "https://github.com/toji/gl-matrix/pull/390",
+    "result": "skipped",
+    "tested_at": "2026-09-26T06:59:40.494Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/36225380060"
   }
 }
