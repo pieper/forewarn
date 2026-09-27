@@ -2218,5 +2218,17 @@
     "result": "skipped",
     "tested_at": "2026-09-26T06:59:40.494Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/36225380060"
+  },
+  "dcmjs-org/dcmjs|lodash/lodash|6280|89e3a32a2ea05c689c0786e55951ad8c9b1933fa": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "lodash/lodash",
+    "dep_package": "lodash.clonedeep",
+    "pr_number": 6280,
+    "pr_sha": "89e3a32a2ea05c689c0786e55951ad8c9b1933fa",
+    "pr_title": "fix(debounce/throttle): treat undefined options as missing",
+    "pr_url": "https://github.com/lodash/lodash/pull/6280",
+    "result": "skipped",
+    "tested_at": "2026-09-27T07:30:08.751Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/36303257384"
   }
 }
