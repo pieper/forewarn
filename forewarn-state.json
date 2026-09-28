@@ -2230,5 +2230,17 @@
     "result": "skipped",
     "tested_at": "2026-09-27T07:30:08.751Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/36303257384"
+  },
+  "dcmjs-org/dcmjs|lodash/lodash|6251|f41174b05f8af1aeb857d82f788d980cff82e758": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "lodash/lodash",
+    "dep_package": "lodash.clonedeep",
+    "pr_number": 6251,
+    "pr_sha": "f41174b05f8af1aeb857d82f788d980cff82e758",
+    "pr_title": "fix(invert): handle __proto__ values in baseInverter",
+    "pr_url": "https://github.com/lodash/lodash/pull/6251",
+    "result": "skipped",
+    "tested_at": "2026-09-28T08:08:03.335Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/36395448080"
   }
 }
