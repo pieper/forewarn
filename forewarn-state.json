@@ -2266,5 +2266,17 @@
     "result": "skipped",
     "tested_at": "2026-09-30T07:51:43.953Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/36686068280"
+  },
+  "dcmjs-org/dcmjs|lodash/lodash|6269|8287e00108e98606dce4799e1bbdeb7dd8bf1853": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "lodash/lodash",
+    "dep_package": "lodash.clonedeep",
+    "pr_number": 6269,
+    "pr_sha": "8287e00108e98606dce4799e1bbdeb7dd8bf1853",
+    "pr_title": "docs: document zip and zipObject behavior with uneven array lengths",
+    "pr_url": "https://github.com/lodash/lodash/pull/6269",
+    "result": "skipped",
+    "tested_at": "2026-10-01T08:12:27.234Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/36834800502"
   }
 }
