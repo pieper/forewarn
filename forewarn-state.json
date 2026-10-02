@@ -2278,5 +2278,17 @@
     "result": "skipped",
     "tested_at": "2026-10-01T08:12:27.234Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/36834800502"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18255|8a3896f0b0e10c3557d4cb7b6026ca8a299e0955": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18255,
+    "pr_sha": "8a3896f0b0e10c3557d4cb7b6026ca8a299e0955",
+    "pr_title": "Simplify  helper",
+    "pr_url": "https://github.com/babel/babel/pull/18255",
+    "result": "skipped",
+    "tested_at": "2026-10-02T07:51:48.862Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/36980786910"
   }
 }
