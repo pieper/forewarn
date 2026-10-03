@@ -2290,5 +2290,17 @@
     "result": "skipped",
     "tested_at": "2026-10-02T07:51:48.862Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/36980786910"
+  },
+  "dcmjs-org/dcmjs|toji/gl-matrix|492|ecb09c0af3ab2955d6b5e599791a842b84a0d635": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "toji/gl-matrix",
+    "dep_package": "gl-matrix",
+    "pr_number": 492,
+    "pr_sha": "ecb09c0af3ab2955d6b5e599791a842b84a0d635",
+    "pr_title": "Roll in @typhonrt's package modernization changes",
+    "pr_url": "https://github.com/toji/gl-matrix/pull/492",
+    "result": "skipped",
+    "tested_at": "2026-10-03T07:30:13.052Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/37106486408"
   }
 }
