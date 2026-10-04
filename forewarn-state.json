@@ -2302,5 +2302,17 @@
     "result": "skipped",
     "tested_at": "2026-10-03T07:30:13.052Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/37106486408"
+  },
+  "dcmjs-org/dcmjs|lodash/lodash|6276|046cfde93b62c81e052f12ed0b9f0ea1f6081b93": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "lodash/lodash",
+    "dep_package": "lodash.clonedeep",
+    "pr_number": 6276,
+    "pr_sha": "046cfde93b62c81e052f12ed0b9f0ea1f6081b93",
+    "pr_title": "fix: advance lastIndex past empty separator matches in truncate",
+    "pr_url": "https://github.com/lodash/lodash/pull/6276",
+    "result": "skipped",
+    "tested_at": "2026-10-04T07:43:11.237Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/37186599547"
   }
 }
