@@ -2326,5 +2326,17 @@
     "result": "skipped",
     "tested_at": "2026-10-05T08:09:59.901Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/37281903145"
+  },
+  "dcmjs-org/dcmjs|toji/gl-matrix|462|059668b9b90dc028b087f09be0a6d921eb0e1fb7": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "toji/gl-matrix",
+    "dep_package": "gl-matrix",
+    "pr_number": 462,
+    "pr_sha": "059668b9b90dc028b087f09be0a6d921eb0e1fb7",
+    "pr_title": "mat3: Add fromEuler Function to Support Euler Angles to Matrix Conversion",
+    "pr_url": "https://github.com/toji/gl-matrix/pull/462",
+    "result": "skipped",
+    "tested_at": "2026-10-06T08:28:58.426Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/37436301598"
   }
 }
