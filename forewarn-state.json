@@ -2338,5 +2338,17 @@
     "result": "skipped",
     "tested_at": "2026-10-06T08:28:58.426Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/37436301598"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18276|6bd5e421e005fdb24f46b107ca973714e958c843": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18276,
+    "pr_sha": "6bd5e421e005fdb24f46b107ca973714e958c843",
+    "pr_title": "fix: report expression errors in object literals used as member base",
+    "pr_url": "https://github.com/babel/babel/pull/18276",
+    "result": "skipped",
+    "tested_at": "2026-10-07T08:04:01.313Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/37591255711"
   }
 }
