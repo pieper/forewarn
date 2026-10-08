@@ -2350,5 +2350,17 @@
     "result": "skipped",
     "tested_at": "2026-10-07T08:04:01.313Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/37591255711"
+  },
+  "dcmjs-org/dcmjs|lodash/lodash|6287|332a05122cff91f764beb63fc360747a0882e338": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "lodash/lodash",
+    "dep_package": "lodash.clonedeep",
+    "pr_number": 6287,
+    "pr_sha": "332a05122cff91f764beb63fc360747a0882e338",
+    "pr_title": "chore(deps): update dependency platform to v1.3.6",
+    "pr_url": "https://github.com/lodash/lodash/pull/6287",
+    "result": "skipped",
+    "tested_at": "2026-10-08T08:20:56.530Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/37749132365"
   }
 }
