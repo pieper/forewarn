@@ -2362,5 +2362,17 @@
     "result": "skipped",
     "tested_at": "2026-10-08T08:20:56.530Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/37749132365"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18317|bad5fae438bf72591f287194916a954eb000ecdf": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18317,
+    "pr_sha": "bad5fae438bf72591f287194916a954eb000ecdf",
+    "pr_title": "Add failing tests derived from proptest-driven test waves",
+    "pr_url": "https://github.com/babel/babel/pull/18317",
+    "result": "skipped",
+    "tested_at": "2026-10-09T08:23:00.057Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/37904560751"
   }
 }
