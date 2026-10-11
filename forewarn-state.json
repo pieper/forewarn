@@ -2374,5 +2374,17 @@
     "result": "skipped",
     "tested_at": "2026-10-09T08:23:00.057Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/37904560751"
+  },
+  "dcmjs-org/dcmjs|babel/babel|16873|b970ded7dec406dfc484765b4f42e25a340048bb": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 16873,
+    "pr_sha": "b970ded7dec406dfc484765b4f42e25a340048bb",
+    "pr_title": "chore: Improve benchmarks and setup Codspeed",
+    "pr_url": "https://github.com/babel/babel/pull/16873",
+    "result": "skipped",
+    "tested_at": "2026-10-11T08:12:24.489Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/38123952447"
   }
 }
