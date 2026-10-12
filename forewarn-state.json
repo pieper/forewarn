@@ -2386,5 +2386,17 @@
     "result": "skipped",
     "tested_at": "2026-10-11T08:12:24.489Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/38123952447"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18325|326657face3a35b5d7a532b70a14a5bf5da97776": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18325,
+    "pr_sha": "326657face3a35b5d7a532b70a14a5bf5da97776",
+    "pr_title": "Shrink jsx helper size",
+    "pr_url": "https://github.com/babel/babel/pull/18325",
+    "result": "skipped",
+    "tested_at": "2026-10-12T08:28:29.693Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/38223735477"
   }
 }
