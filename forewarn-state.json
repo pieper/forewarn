@@ -2398,5 +2398,17 @@
     "result": "skipped",
     "tested_at": "2026-10-12T08:28:29.693Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/38223735477"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18337|51db2da92049170fae208ba0ec3b71174c8d0e7f": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18337,
+    "pr_sha": "51db2da92049170fae208ba0ec3b71174c8d0e7f",
+    "pr_title": "Wrap enclosing loop body when a nested for-head closure captures a let binding",
+    "pr_url": "https://github.com/babel/babel/pull/18337",
+    "result": "skipped",
+    "tested_at": "2026-10-13T08:51:36.068Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/38372136248"
   }
 }
