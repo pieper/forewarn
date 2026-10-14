@@ -2410,5 +2410,17 @@
     "result": "skipped",
     "tested_at": "2026-10-13T08:51:36.068Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/38372136248"
+  },
+  "dcmjs-org/dcmjs|lodash/lodash|6296|7ae2828a5bdc5a4e0d1b7f4f73df7caf35d57b52": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "lodash/lodash",
+    "dep_package": "lodash.clonedeep",
+    "pr_number": 6296,
+    "pr_sha": "7ae2828a5bdc5a4e0d1b7f4f73df7caf35d57b52",
+    "pr_title": "Perf: cache source values during merge assignments",
+    "pr_url": "https://github.com/lodash/lodash/pull/6296",
+    "result": "skipped",
+    "tested_at": "2026-10-14T07:02:25.708Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/38525704010"
   }
 }
