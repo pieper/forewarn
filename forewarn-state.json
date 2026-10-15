@@ -2422,5 +2422,17 @@
     "result": "skipped",
     "tested_at": "2026-10-14T07:02:25.708Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/38525704010"
+  },
+  "dcmjs-org/dcmjs|cthackers/adm-zip|584|17b38113c2e75cb57b6dbb628aa8c6597046b2b8": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "cthackers/adm-zip",
+    "dep_package": "adm-zip",
+    "pr_number": 584,
+    "pr_sha": "17b38113c2e75cb57b6dbb628aa8c6597046b2b8",
+    "pr_title": "Fixed toAsyncBuffer overflowing the stack and calling onFail after onSuccess",
+    "pr_url": "https://github.com/cthackers/adm-zip/pull/584",
+    "result": "skipped",
+    "tested_at": "2026-10-15T06:53:18.456Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/38695068806"
   }
 }
