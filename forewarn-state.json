@@ -2470,5 +2470,17 @@
     "result": "skipped",
     "tested_at": "2026-10-18T06:54:26.857Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/39105652930"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18316|74d35e50b2c89d7867be7d2c11981ab6722cfdab": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18316,
+    "pr_sha": "74d35e50b2c89d7867be7d2c11981ab6722cfdab",
+    "pr_title": "Add transform support for filtered namespaces",
+    "pr_url": "https://github.com/babel/babel/pull/18316",
+    "result": "skipped",
+    "tested_at": "2026-10-19T07:13:50.720Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/39214596071"
   }
 }
