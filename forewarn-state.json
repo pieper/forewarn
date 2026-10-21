@@ -2482,5 +2482,17 @@
     "result": "skipped",
     "tested_at": "2026-10-19T07:13:50.720Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/39214596071"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18366|4ae578eba850c549a87c39f9743ac9c262057416": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18366,
+    "pr_sha": "4ae578eba850c549a87c39f9743ac9c262057416",
+    "pr_title": "fix(parser): disallow named specifiers after * as ns",
+    "pr_url": "https://github.com/babel/babel/pull/18366",
+    "result": "skipped",
+    "tested_at": "2026-10-21T06:56:00.771Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/39558487393"
   }
 }
