@@ -2494,5 +2494,17 @@
     "result": "skipped",
     "tested_at": "2026-10-21T06:56:00.771Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/39558487393"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18329|3a98e0b57f7bec0d1482429608852071f9d1c8b1": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18329,
+    "pr_sha": "3a98e0b57f7bec0d1482429608852071f9d1c8b1",
+    "pr_title": "Transform partial-application  version",
+    "pr_url": "https://github.com/babel/babel/pull/18329",
+    "result": "skipped",
+    "tested_at": "2026-10-22T07:00:07.066Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/39737440064"
   }
 }
