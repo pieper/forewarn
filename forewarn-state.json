@@ -2506,5 +2506,17 @@
     "result": "skipped",
     "tested_at": "2026-10-22T07:00:07.066Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/39737440064"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18392|20f7e2d2b8389648b8b4766c07cf3560c51b2394": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18392,
+    "pr_sha": "20f7e2d2b8389648b8b4766c07cf3560c51b2394",
+    "pr_title": "fix(parser): set phase: null for non-deferred imports with deferredImportEvaluation (#18313)",
+    "pr_url": "https://github.com/babel/babel/pull/18392",
+    "result": "skipped",
+    "tested_at": "2026-10-23T06:52:22.750Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/39914129080"
   }
 }
