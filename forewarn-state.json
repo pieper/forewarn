@@ -2518,5 +2518,17 @@
     "result": "skipped",
     "tested_at": "2026-10-23T06:52:22.750Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/39914129080"
+  },
+  "dcmjs-org/dcmjs|cthackers/adm-zip|586|71301caa43f40cac709e8671e890ea77c338d4ef": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "cthackers/adm-zip",
+    "dep_package": "adm-zip",
+    "pr_number": 586,
+    "pr_sha": "71301caa43f40cac709e8671e890ea77c338d4ef",
+    "pr_title": "Bump brace-expansion",
+    "pr_url": "https://github.com/cthackers/adm-zip/pull/586",
+    "result": "skipped",
+    "tested_at": "2026-10-24T06:48:54.348Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/40071631366"
   }
 }
