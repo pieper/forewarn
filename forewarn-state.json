@@ -2530,5 +2530,17 @@
     "result": "skipped",
     "tested_at": "2026-10-24T06:48:54.348Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/40071631366"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18372|077893d22f873dee93c6064ad74f309ed11b33d4": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18372,
+    "pr_sha": "077893d22f873dee93c6064ad74f309ed11b33d4",
+    "pr_title": "fix(parser): allow parenthesized assignment target in arrow initializer",
+    "pr_url": "https://github.com/babel/babel/pull/18372",
+    "result": "skipped",
+    "tested_at": "2026-10-25T07:12:25.773Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/40171876545"
   }
 }
