@@ -2542,5 +2542,17 @@
     "result": "skipped",
     "tested_at": "2026-10-25T07:12:25.773Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/40171876545"
+  },
+  "dcmjs-org/dcmjs|babel/babel|17817|1ab6c2fed3097dfee3a0352cc86f8fff96ec32c2": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 17817,
+    "pr_sha": "1ab6c2fed3097dfee3a0352cc86f8fff96ec32c2",
+    "pr_title": "Add support for  and  imports",
+    "pr_url": "https://github.com/babel/babel/pull/17817",
+    "result": "skipped",
+    "tested_at": "2026-10-26T07:20:48.050Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/40285159995"
   }
 }
