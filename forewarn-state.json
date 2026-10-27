@@ -2554,5 +2554,17 @@
     "result": "skipped",
     "tested_at": "2026-10-26T07:20:48.050Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/40285159995"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18427|22bcd6bda7939ebdfc9196a3a8c8b0f2248a61df": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18427,
+    "pr_sha": "22bcd6bda7939ebdfc9196a3a8c8b0f2248a61df",
+    "pr_title": "Fix missing parentheses around TypeScript assertion targets",
+    "pr_url": "https://github.com/babel/babel/pull/18427",
+    "result": "skipped",
+    "tested_at": "2026-10-27T07:12:02.674Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/40465648006"
   }
 }
