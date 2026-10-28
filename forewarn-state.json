@@ -2566,5 +2566,17 @@
     "result": "skipped",
     "tested_at": "2026-10-27T07:12:02.674Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/40465648006"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18415|8bea74d454b6c724d33aee4768e04e6b927d8fb7": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18415,
+    "pr_sha": "8bea74d454b6c724d33aee4768e04e6b927d8fb7",
+    "pr_title": "Fix spread for arrays with a custom iterator",
+    "pr_url": "https://github.com/babel/babel/pull/18415",
+    "result": "skipped",
+    "tested_at": "2026-10-28T07:51:11.774Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/40652697579"
   }
 }
