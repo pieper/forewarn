@@ -2590,5 +2590,17 @@
     "result": "skipped",
     "tested_at": "2026-10-29T07:56:10.097Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/40838590796"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18451|06959cd8e5c6596c9c9fe3c6636423784099d305": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18451,
+    "pr_sha": "06959cd8e5c6596c9c9fe3c6636423784099d305",
+    "pr_title": "chore: remove obsolete node fixture minimums",
+    "pr_url": "https://github.com/babel/babel/pull/18451",
+    "result": "skipped",
+    "tested_at": "2026-10-30T07:59:00.050Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/41023371370"
   }
 }
