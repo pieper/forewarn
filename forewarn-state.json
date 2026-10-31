@@ -2602,5 +2602,17 @@
     "result": "skipped",
     "tested_at": "2026-10-30T07:59:00.050Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/41023371370"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18412|0dcc30fed1fb2e2c5bb0a80b3d4eb422154a12f6": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18412,
+    "pr_sha": "0dcc30fed1fb2e2c5bb0a80b3d4eb422154a12f6",
+    "pr_title": "fix(regenerator): support yield and await in template literals",
+    "pr_url": "https://github.com/babel/babel/pull/18412",
+    "result": "skipped",
+    "tested_at": "2026-10-31T07:55:04.045Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/41182446192"
   }
 }
