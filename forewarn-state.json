@@ -2614,5 +2614,17 @@
     "result": "skipped",
     "tested_at": "2026-10-31T07:55:04.045Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/41182446192"
+  },
+  "dcmjs-org/dcmjs|cthackers/adm-zip|583|fdeba9c3c32d6d2289adabf048defc64d783fe49": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "cthackers/adm-zip",
+    "dep_package": "adm-zip",
+    "pr_number": 583,
+    "pr_sha": "fdeba9c3c32d6d2289adabf048defc64d783fe49",
+    "pr_title": "Read the zip64 extended information extra field positionally",
+    "pr_url": "https://github.com/cthackers/adm-zip/pull/583",
+    "result": "skipped",
+    "tested_at": "2026-11-01T08:37:15.860Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/41289577111"
   }
 }
