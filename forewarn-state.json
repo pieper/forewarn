@@ -2638,5 +2638,17 @@
     "result": "skipped",
     "tested_at": "2026-11-02T08:46:46.625Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/41415404913"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18505|ec6166a90be89d681ce1071117e23be3602ff421": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18505,
+    "pr_sha": "ec6166a90be89d681ce1071117e23be3602ff421",
+    "pr_title": "fix: improve  named export handling",
+    "pr_url": "https://github.com/babel/babel/pull/18505",
+    "result": "skipped",
+    "tested_at": "2026-11-04T08:29:58.409Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/41799916522"
   }
 }
