@@ -2650,5 +2650,17 @@
     "result": "skipped",
     "tested_at": "2026-11-04T08:29:58.409Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/41799916522"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18528|5d3510d1d52b716b99a129b93198136817a6b814": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18528,
+    "pr_sha": "5d3510d1d52b716b99a129b93198136817a6b814",
+    "pr_title": "fix(generator): parenthesize string statements in directive position",
+    "pr_url": "https://github.com/babel/babel/pull/18528",
+    "result": "skipped",
+    "tested_at": "2026-11-05T08:53:10.827Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/41997856000"
   }
 }
