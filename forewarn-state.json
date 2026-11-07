@@ -2674,5 +2674,17 @@
     "result": "skipped",
     "tested_at": "2026-11-06T08:52:41.745Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/42190746224"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18526|add1b441b5622c67333d37cf35d0b21680cd2f81": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18526,
+    "pr_sha": "add1b441b5622c67333d37cf35d0b21680cd2f81",
+    "pr_title": "perf(generator): general improvement",
+    "pr_url": "https://github.com/babel/babel/pull/18526",
+    "result": "skipped",
+    "tested_at": "2026-11-07T08:12:24.517Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/42354442209"
   }
 }
