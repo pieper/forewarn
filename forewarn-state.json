@@ -2698,5 +2698,17 @@
     "result": "skipped",
     "tested_at": "2026-11-08T08:29:21.683Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/42463092168"
+  },
+  "dcmjs-org/dcmjs|babel/babel|16216|b5a600ffcac346cb0d8d2a727addbb12e4e29b40": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 16216,
+    "pr_sha": "b5a600ffcac346cb0d8d2a727addbb12e4e29b40",
+    "pr_title": "Simplify pipeline parsing with  declarations",
+    "pr_url": "https://github.com/babel/babel/pull/16216",
+    "result": "skipped",
+    "tested_at": "2026-11-09T08:59:39.182Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/42589857142"
   }
 }
