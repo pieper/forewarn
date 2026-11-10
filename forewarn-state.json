@@ -2710,5 +2710,17 @@
     "result": "skipped",
     "tested_at": "2026-11-09T08:59:39.182Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/42589857142"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18544|9c38251b045d0ca7a4bedaed3827bf94e7670dc7": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18544,
+    "pr_sha": "9c38251b045d0ca7a4bedaed3827bf94e7670dc7",
+    "pr_title": "ci: run CodSpeed on GitHub-hosted arm64 runners",
+    "pr_url": "https://github.com/babel/babel/pull/18544",
+    "result": "skipped",
+    "tested_at": "2026-11-10T09:07:12.337Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/42787949207"
   }
 }
