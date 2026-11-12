@@ -2722,5 +2722,17 @@
     "result": "skipped",
     "tested_at": "2026-11-10T09:07:12.337Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/42787949207"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18534|cb82fab545695dc13d8ff3218e71ac85f6a6747b": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18534,
+    "pr_sha": "cb82fab545695dc13d8ff3218e71ac85f6a6747b",
+    "pr_title": "fix(parser): check async arrow conditions for Flow generic async arrows",
+    "pr_url": "https://github.com/babel/babel/pull/18534",
+    "result": "skipped",
+    "tested_at": "2026-11-12T09:08:43.005Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/43188770705"
   }
 }
