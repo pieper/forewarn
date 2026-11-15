@@ -2758,5 +2758,17 @@
     "result": "skipped",
     "tested_at": "2026-11-14T08:29:09.418Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/43575998924"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18617|28a6e6a546d10770cfc0fb33cb737e0c43472518": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18617,
+    "pr_sha": "28a6e6a546d10770cfc0fb33cb737e0c43472518",
+    "pr_title": "fix(transform-regenerator): keep catch parameter bindings when hoisting var",
+    "pr_url": "https://github.com/babel/babel/pull/18617",
+    "result": "skipped",
+    "tested_at": "2026-11-15T08:45:05.119Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/43695911777"
   }
 }
