@@ -2770,5 +2770,17 @@
     "result": "skipped",
     "tested_at": "2026-11-15T08:45:05.119Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/43695911777"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18517|339fecdaf3e7bf2e74a5cb4dcf412c15604351b7": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18517,
+    "pr_sha": "339fecdaf3e7bf2e74a5cb4dcf412c15604351b7",
+    "pr_title": "ci: harden release process after 8.1.0 failures",
+    "pr_url": "https://github.com/babel/babel/pull/18517",
+    "result": "skipped",
+    "tested_at": "2026-11-16T08:56:38.345Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/43835278141"
   }
 }
