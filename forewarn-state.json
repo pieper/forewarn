@@ -2782,5 +2782,17 @@
     "result": "skipped",
     "tested_at": "2026-11-16T08:56:38.345Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/43835278141"
+  },
+  "dcmjs-org/dcmjs|cthackers/adm-zip|588|b2cbe4cb44ca4e7a767053eeed39a90932da80fe": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "cthackers/adm-zip",
+    "dep_package": "adm-zip",
+    "pr_number": 588,
+    "pr_sha": "b2cbe4cb44ca4e7a767053eeed39a90932da80fe",
+    "pr_title": "fix(#587): reject archive when entry names differ textually but resolve to the same path on disk",
+    "pr_url": "https://github.com/cthackers/adm-zip/pull/588",
+    "result": "skipped",
+    "tested_at": "2026-11-17T10:02:32.402Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/44060930300"
   }
 }
