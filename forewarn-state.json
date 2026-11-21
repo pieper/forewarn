@@ -2806,5 +2806,17 @@
     "result": "skipped",
     "tested_at": "2026-11-20T09:34:30.990Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/44711765805"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18162|270501dbfe638beda88d98b90d67f39cd70c2945": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18162,
+    "pr_sha": "270501dbfe638beda88d98b90d67f39cd70c2945",
+    "pr_title": "fix: set the prototype for __proto__ keys hoisted out of object literals",
+    "pr_url": "https://github.com/babel/babel/pull/18162",
+    "result": "skipped",
+    "tested_at": "2026-11-21T09:06:21.431Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/44887911439"
   }
 }
