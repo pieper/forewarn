@@ -2818,5 +2818,17 @@
     "result": "skipped",
     "tested_at": "2026-11-21T09:06:21.431Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/44887911439"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18555|47e4f43846942f4f67abc4560886978b0cf4cde7": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18555,
+    "pr_sha": "47e4f43846942f4f67abc4560886978b0cf4cde7",
+    "pr_title": "update AGENTS.md",
+    "pr_url": "https://github.com/babel/babel/pull/18555",
+    "result": "skipped",
+    "tested_at": "2026-11-23T10:11:50.396Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/45153750699"
   }
 }
