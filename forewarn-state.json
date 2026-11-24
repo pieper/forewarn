@@ -2830,5 +2830,17 @@
     "result": "skipped",
     "tested_at": "2026-11-23T10:11:50.396Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/45153750699"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18514|90c32a5c2be6cb27cd2245ead8f0415eb6f33f3f": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18514,
+    "pr_sha": "90c32a5c2be6cb27cd2245ead8f0415eb6f33f3f",
+    "pr_title": "fix(parser): reject parenthesized Flow casts as assignment targets",
+    "pr_url": "https://github.com/babel/babel/pull/18514",
+    "result": "skipped",
+    "tested_at": "2026-11-24T11:56:09.279Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/45388637584"
   }
 }
