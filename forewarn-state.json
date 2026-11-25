@@ -2842,5 +2842,17 @@
     "result": "skipped",
     "tested_at": "2026-11-24T11:56:09.279Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/45388637584"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18710|77c8a10a32f902cadf3881aeb30621dc53c76b49": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18710,
+    "pr_sha": "77c8a10a32f902cadf3881aeb30621dc53c76b49",
+    "pr_title": "fix(optional-catch-binding): register the added  parameter",
+    "pr_url": "https://github.com/babel/babel/pull/18710",
+    "result": "skipped",
+    "tested_at": "2026-11-25T10:48:05.772Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/45598369825"
   }
 }
