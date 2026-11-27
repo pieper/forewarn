@@ -2866,5 +2866,17 @@
     "result": "skipped",
     "tested_at": "2026-11-26T10:21:41.268Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/45800477662"
+  },
+  "dcmjs-org/dcmjs|toji/gl-matrix|504|e1657ff48fb101c412ec6ffb490a5ebbd7559416": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "toji/gl-matrix",
+    "dep_package": "gl-matrix",
+    "pr_number": 504,
+    "pr_sha": "e1657ff48fb101c412ec6ffb490a5ebbd7559416",
+    "pr_title": "Make quat.lerp sign-preserving",
+    "pr_url": "https://github.com/toji/gl-matrix/pull/504",
+    "result": "skipped",
+    "tested_at": "2026-11-27T10:27:52.212Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/45982178950"
   }
 }
