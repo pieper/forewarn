@@ -2878,5 +2878,17 @@
     "result": "skipped",
     "tested_at": "2026-11-27T10:27:52.212Z",
     "run_url": "https://github.com/pieper/forewarn/actions/runs/45982178950"
+  },
+  "dcmjs-org/dcmjs|babel/babel|18737|754679bd9c44ad314b172827f8e22bed7cbc2058": {
+    "watched_repo": "dcmjs-org/dcmjs",
+    "dep_repo": "babel/babel",
+    "dep_package": "@babel/runtime-corejs3",
+    "pr_number": 18737,
+    "pr_sha": "754679bd9c44ad314b172827f8e22bed7cbc2058",
+    "pr_title": "fix(discard-binding): update assignment violation scope info",
+    "pr_url": "https://github.com/babel/babel/pull/18737",
+    "result": "skipped",
+    "tested_at": "2026-11-28T09:43:02.877Z",
+    "run_url": "https://github.com/pieper/forewarn/actions/runs/46131735047"
   }
 }
